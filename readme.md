@@ -3,4 +3,4 @@ This is the second line of text
 This is the third line of text
 This is the fourth line of text
 
-This is a new branch.
+This is a new branch. Opened again.
