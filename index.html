@@ -6,9 +6,11 @@
   <meta name="description" content="Astrid's first project in Bloc.io's UX Design program: a landing page for a fictitious SaaS product">
   <meta name="author" content="Astrid Paris, @astridparisUX">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- Not sure if I'm pulling in the font right -->
+  <script src="//use.typekit.net/fix1wec.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/skeleton.css"> 
   <link rel="stylesheet" href="css/styles.css">
   <!-- Need to update the favicon -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -19,54 +21,123 @@
     <!-- NAVIGATION -->
     <div class="row">
       <div class="one-third column">branding column</div>
-      <div class="two-thirds column">nav links column</div>
+      <div class="two-thirds column">nav links column + <a class="button" href="#">Sign up</a></div>
     </div>
 
     <!-- HERO -->
     <div class="row">
-      <div class="two-thirds column">copy column</div>
-      <div class="one-third column">CTA column</div>
+      <div class="ten columns">
+        <h1>A collaborative marketplace<br>
+          for writers & editors
+        </h1>
+        <p>Connect with editors on Jottly's custom writing and editing platform
+        </p>
+      </div>
+      <div class="two columns">
+        <a class="button button-primary" href="#">Post a job for free
+        </a>
+        <br>
+        <p class="editor">or learn how to become an editor</p>
+      </div>
     </div>
 
     <!-- STEPS -->
-    <div class="row">
-      <div class="one-third column">post column</div>
-      <div class="one-third column">choose column</div>
-      <div class="one-third column">collaborate column</div>
+    <div class="row" id="steps">
+      <div class="one-third column">
+        <h3>Post
+        </h3>
+        <p>Post your project brief and we’ll let you know when editors bid on it
+        </p>
+      </div>
+      <div class="one-third column">
+        <h3>Choose
+        </h3>
+        <p>Choose an editor from those who bid or proactively recruit an editor who didn’t bid
+        </p>
+      </div>
+      <div class="one-third column">
+        <h3>Collaborate
+        </h3>
+        <p>Let the creativity begin by collaborating with your new editor
+        </p>
+      </div>
     </div>
 
     <!-- SCREENSHOT -->
     <div class="row">
-      <div class="one-third column">copy + CTA column</div>
-      <div class="two-thirds column">screenshot column</div>
+      <div class="five columns">
+        <h2>Just editing. Period.
+        </h2>
+        <p>Unlike other job marketplace sites, Jott.ly focuses on editing projects. With 30,000+ editors across the globe and integrated collaboration and project management tools, Jott.ly’s a one-stop-shop for your editing needs. <a class="button" href="#">See how it works</a>
+        </p>
+      </div>
+      <div class="seven columns">screenshot column</div>
     </div>
 
     <!-- FEATURES -->
     <div class="row">
-      <div class="twelve columns">features go in 1 row
-      </div>
-    </div>
+      <div class="twelve columns">
+        <h2>Built-in collaboration space</h2>
+        <p>
+          Creativity and good work doesn’t happen in a vacuum. Writers and editors can collaborate in a dedicated project space. With document version history, commenting, and multi-user editing, writers can actively participate in the editing process.
+        </p>
 
-    <!-- FEATURES CTA -->
-    <div class="row">
-      <div class="twelve columns">copy and the CTA go in 1 row
+        <h2>Editor profiles</h2>
+        <p>
+          Pick the perfect editor for your writing project. Profiles let you see each each freelance editor’s experience with different style guides, industries, and types of content. You can even see how editors have been rated for past Jott.ly jobs.
+        </p>
+
+        <h2>Project milestones</h2>
+        <p>
+          Keep your editing project on track by setting milestones. You can even opt to make payments for work based on the meeting of milestones. Writers pay only for the work that’s been done and freelancers reduce their risk of working for free.
+        </p>
+
+        <h2>Integrated calendar</h2>
+        <p>
+          Make sure everyone’s on the same page with project calendars. Calendars automatically display project milestones, and you mark additional events like task due dates or meetings.
+        </p>
+
+        <!-- SHOULD THIS SECTION BE IN ITS OWN ROW? -->
+        <hr>
+        <p>
+          Other job marketplace sites and collaboration tools are generic, so finding and collaborating with editors is a pain in the butt.
+          <br>
+          <a class="button" href="#">Compare Jottly</a>
+        </p>
       </div>
     </div>
 
     <!-- QUOTES -->
     <div class="row">
-      <div class="one-half column">Customer quote 1</div>
-      <div class="one-half column">Customer quote 2</div>
+      <div class="one-half column">
+        <p>My copyeditor went on maternity leave a little earlier than expected, so my project started getting behind. I was able to quickly find a temporary editor through Jott.ly for a reasonable rate, and she’s proven to be excellent!
+        </p>
+        <p>Monica B., Urban Gardens ‘R Us
+        </p>
+      </div>
+      <div class="one-half column">
+        <p>As a small startup, we don’t have a need for a full-time editor. Jott.ly has allowed us to connect with a freelance editor who we can use when we’re in a pinch. We collaborate through Jott.ly on our projects which has been a really awesome experience.
+        </p>
+        <p>John D., Fancy Pants Media
+        </p>
+      </div>
     </div>
 
     <!-- FINAL CTA -->
     <div class="row">
-      <div class="two-thirds column">copy column</div>
-      <div class="one-third column">CTA column</div>
+      <div class="two-thirds column">
+        <p>Behind all good writing is a good editor. Jott.ly is the one and only editing-focused freelance online marketplace. Browse editor profiles now to find your perfect match.
+        </p>
+      </div>
+      <div class="one-third column"><a class="button button-primary" href="#">Post a job for free</a></div>
     </div>
 
     <!-- FOOTER -->
-    <div class="row">
+    <div class="row" id="footer">
+      <div class="two columns">Product</div>
+      <div class="two columns">Community</div>
+      <div class="two columns">Company</div>
+      <div class="four columns">social media/signup</div>
     </div>
 
   </div>

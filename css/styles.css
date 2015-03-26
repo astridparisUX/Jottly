@@ -8,9 +8,149 @@
 -Figure out how to do style for customer photo in quotes section
 */
 
+/*-- STILL NEED TO ADJUST */
+h1, h2, h3, h4 {
+  margin-top: 0;
+  font-weight: 600; 
+  margin-bottom: -0.25rem;
+}
+
+h1 { 
+  font-size: 4.0rem; 
+  line-height: 1.2;  
+  letter-spacing: -.1rem;
+}
+
+h2 { 
+  font-size: 3.6rem; /*-- IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
+  line-height: 1.25; 
+  letter-spacing: -.1rem; 
+}
+
+h3 { 
+  font-size: 3.0rem; /*-- IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
+  line-height: 1.3;  
+  letter-spacing: -.1rem; 
+  text-transform: uppercase;
+}
+
+h4 { 
+  font-size: 2.4rem; 
+  line-height: 1.35; 
+  letter-spacing: -.08rem; 
+}
 
 
-/* GLOBAL */
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+}
+
+p {
+  margin-top: 0; 
+}
+
+
+/*-- IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
+body {
+  font-size: 1.75em;
+  line-height: 1.6;
+  font-weight: normal;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+.editor {
+  font-size: 13px;  /*-- CHANGE TO REM; IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
+}
+
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #00dac6;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #00dac6;
+  cursor: pointer;
+  box-sizing: border-box; 
+}
+
+/*-- STILL NEED TO ADJUST 
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; 
+}
+*/
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #00dac6;
+  border: none;
+  box-shadow: 0 3px #00baa9;
+}
+
+/*-- STILL NEED TO ADJUST 
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; 
+}
+*/
+
+#steps {
+  text-align: center;
+}
+
+.footer {
+  background-color: #6d6d6d;
+  color: #fff;
+  font-size: 13px;
+}
+
+
+/*-- OLD 
+
 #branding {
   color: #00dac6;
 }
@@ -37,95 +177,35 @@ h3 {
   text-align: center;
 }
 
-p {
-  color: #000;
-  font-size: 14px;
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
 
-#editorlink {
-  font-size: 13px;
+
+.btn-ghost {
+  height: 54px;
+  width: 125px;
 }
 
 .btn {
-  background: #00dac6;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0 6px #00baa9;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-family: "Proxima Nova";
   font-size: 18px;
   height: 54px;
-  text-align: center;
-  text-decoration: none;
   width: 200px;
 }
 
 .btn-ghost-small {
-  background: transparent;
-  border-width: 3px;
-  border-color: #00dac6;
-  border-radius: 4px;
-  color: #00dac6;
-  cursor: pointer;
-  font-family: "Proxima Nova";
   font-size: 16px;
   height: 40px;
-  text-align: center;
-  text-decoration: none;
   width: 75px;
 }
 
-.btn-ghost {
-  background: transparent;
-  border-width: 3px;
-  border-color: #00dac6;
-  border-radius: 4px;
-  color: #00dac6;
-  cursor: pointer;
-  display: block;
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  height: 54px;
-  text-align: center;
-  text-decoration: none;
-  width: 125px;
-}
-
 .btn-ghost-med {
-  background: transparent;
-  border-width: 3px;
-  border-color: #00dac6;
-  border-radius: 4px;
-  color: #00dac6;
-  cursor: pointer;
-  display: block;
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-  font-size: 18px;
   height: 54px;
-  text-align: center;
-  text-decoration: none;
   width: 175px;
 }
 
 .btn-ghost-long {
-  background: transparent;
-  border-width: 3px;
-  border-color: #00dac6;
-  border-radius: 4px;
-  color: #00dac6;
-  cursor: pointer;
-  display: block;
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-  font-size: 18px;
   height: 54px;
-  text-align: center;
-  text-decoration: none;
   width: 250px;
 }
+
 
 .form-control {
   width: 300px;
@@ -148,20 +228,16 @@ p {
   font-weight: 500;
 }
 
-
-/* HERO */
 #hero {
   color: #fff;
 }
 
 
-/* PROCESS */
-#process {
+#steps {
   text-align: center;
 }
 
 
-/* QUOTES */
 #quote {
   background-repeat: url("paper.png");
   color: #fff;
@@ -181,7 +257,6 @@ p {
 }
 
 
-/* FOOTER */
 #footer {
   background-color: #6d6d6d;
   color: #fff;
@@ -204,3 +279,4 @@ p {
   width: 32px;
   height: 32px; 
 }
+*/
