@@ -167,6 +167,14 @@ input[type="button"].button-primary:focus {
   background: #00dac6;
 }
 
+.quotes {   /*-- NOT SURE HOW TO DO THE COLOR OVERLAY HERE */
+  color: #fff;
+  font-weight: bold;
+  background: url(../images/paper.png) repeat;
+  padding-top: 5.0rem;
+  padding-bottom: 1.5rem;
+}
+
 .twitter {
   width: 23px; 
   height: auto;
@@ -267,11 +275,7 @@ h3 {
   color: #fff;
 }
 
-#quote {
-  background-repeat: url("paper.png");
-  color: #fff;
-  font-weight: bold;
-}
+
 
 #quoteauthor {
   color: #666666;
