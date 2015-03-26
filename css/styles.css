@@ -167,7 +167,7 @@ input[type="button"].button-primary:focus {
   background: #00dac6;
 }
 
-.quotes {   /*-- NOT SURE HOW TO DO THE COLOR OVERLAY HERE */
+.quotes {   /*-- NOT SURE HOW TO DO THE COLOR OVERLAY HERE OR HOW TO KEEP IT LIKE THIS AT SMALL BROWSER SIZES */
   color: #fff;
   font-weight: bold;
   background: url(../images/paper.png) repeat;
