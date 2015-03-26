@@ -147,6 +147,8 @@ input[type="button"].button-primary:focus {
   color: #fff;
   font-size: 13px;
   width: 100%;
+  padding-top: 2.85rem;
+  padding-bottom: 1.5rem;
 }
 
 #circle {
