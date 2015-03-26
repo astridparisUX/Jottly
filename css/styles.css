@@ -146,6 +146,7 @@ input[type="button"].button-primary:focus {
   background-color: #6d6d6d;
   color: #fff;
   font-size: 13px;
+  width: 100%;
 }
 
 #circle {
