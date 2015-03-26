@@ -152,12 +152,34 @@ input[type="button"].button-primary:focus {
   width: 100px;
   height: 100px;
   background: #fff;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
   border: 2px solid #00dac6;
 }
 
+#rectangle {
+  width: 500px;
+  height: 270px;
+  background: #00dac6;
+}
+
+.twitter {
+  width: 23px; 
+  height: auto;
+}
+.google {
+  width: 23px; 
+  height: auto;
+}
+.facebook {
+  width: auto; 
+  height: 23px;
+}
+.linkedin {
+  width: 21px; 
+  height: auto;
+}
 
 /*-- OLD 
 
@@ -242,12 +264,6 @@ h3 {
   color: #fff;
 }
 
-
-#steps {
-  text-align: center;
-}
-
-
 #quote {
   background-repeat: url("paper.png");
   color: #fff;
@@ -265,7 +281,6 @@ h3 {
   font-family: "Lexia", Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
 }
-
 
 #footer {
   background-color: #6d6d6d;
