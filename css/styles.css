@@ -65,8 +65,21 @@ body {
 }
 .header {
   padding-top: 2.85rem;
-  padding-bottom: 1.5rem;
+  background-color: #dadada;
 }
+
+.header ul {
+  list-style: none;
+  float: right;
+}
+
+.header ul li {
+  display: inline-block;
+  float: left;
+  margin: 0 0 0 30px;
+
+}
+
 .hero {
   padding-top: 2.85rem;
   padding-bottom: 1.5rem;
