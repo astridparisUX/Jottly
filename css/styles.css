@@ -63,6 +63,10 @@ body {
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   color: #000;
 }
+.header {
+  padding-top: 2.85rem;
+  padding-bottom: 1.5rem;
+}
 .footer {
   background-color: #6d6d6d;
   color: #fff;
@@ -165,7 +169,6 @@ input[type="button"].button-primary:focus {
 }
 
 
-
 /*-- OLD 
 
 #branding {
@@ -193,8 +196,6 @@ h3 {
     font-weight: bold;
     text-align: center;
 }
-
-
 
 .btn-ghost {
     height: 54px;
