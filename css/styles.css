@@ -165,7 +165,7 @@ input[type="button"].button-primary:focus {
 }
 */
 
-#circle {
+.circle {
   width: 100px;
   height: 100px;
   background: #fff;
@@ -173,6 +173,7 @@ input[type="button"].button-primary:focus {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   border: 2px solid #00dac6;
+  margin-right: 25px;
 }
 
 .editor {
