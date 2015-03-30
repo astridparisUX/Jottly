@@ -167,6 +167,16 @@ a:hover {
   width: 100%;
 }
 
+.footer ul {
+  list-style: none;
+}
+
+.footer a {
+  color: #fff; 
+  font-size: 13px;
+  text-decoration: none;
+}
+
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
   height: 38px;
