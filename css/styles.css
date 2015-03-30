@@ -127,6 +127,7 @@ a:hover {
   color: #fff;
   background: url(../images/writingphoto.jpg) no-repeat;
   background-size: cover;
+  background-position: top -186px center;
 }
 #hero a {
   color: #fff; 
