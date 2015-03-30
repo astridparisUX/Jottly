@@ -133,7 +133,6 @@ a:hover {
   color: #fff; 
   font-size: 13px;
   text-decoration: none;
-  text-align: center;
 }
 
 #hero-copy {
@@ -145,7 +144,7 @@ a:hover {
 #hero-button {
   position: relative;
   top:  50%;
-  transform: translateY(85%);
+  transform: translateY(65%);
 }
 
 
