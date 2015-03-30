@@ -73,18 +73,48 @@ a {
 }
 
 a:hover {
-  font-weight: 700; /* BOLDING MAKES THIS BIGGER; AFFECTING HERO LINK */
+  background: #ccc;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 5px;
+  box-sizing: border-box;
+  /* FIX */
 }
 
-.header ul {
+#header ul {
   list-style: none;
   float: right;
 }
 
-.header ul li {
+#header ul li {
   display: inline-block;
   float: left;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 40px;
+}
+
+#header ul li div {
+  margin-top: 5px;
+}
+
+#header-nav {
+  position: relative;
+  top:  50%;
+  transform: translateY(20%);
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+  font-weight: 500;
+  /* 
+  FIGURE OUT HOW TO MAKE IT STICKY 
+  position: fixed;
+  top: -54px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: #ccc solid 1px;
+  */
 }
 
 #hero, #hero-overlay {
@@ -117,6 +147,11 @@ a:hover {
 /* PADDING FOR EACH OF THE MAIN SECTIONS */
 .sections {
   padding-top: 2.85rem;
+  padding-bottom: 1.5rem;
+}
+
+#final-cta {
+  padding-top: 5.0rem;
   padding-bottom: 1.5rem;
 }
 
@@ -215,7 +250,7 @@ input[type="button"].button-primary:focus {
 
 #quotes, #quotes-overlay {
     background-color: rgba(0,219,198,0.5);
-    height: 250px;
+    height: 275px;
     margin: 0;
     padding: 0;
 }
