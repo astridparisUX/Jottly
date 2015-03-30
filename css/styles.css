@@ -212,15 +212,20 @@ input[type="button"].button-primary:focus {
   height: 270px;
   background: #00dac6;
 }
-.quotes {
-  /* NOT SURE HOW TO DO THE COLOR OVERLAY HERE OR HOW TO KEEP IT LIKE THIS AT SMALL BROWSER SIZES */
-  color: #fff;
-  font-weight: bold;
-  background: url(../images/paper.png) repeat;
-  padding-top: 5.0rem;
-  padding-bottom: 1.5rem;
+
+#quotes, #quotes-overlay {
+    background-color: rgba(0,219,198,0.5);
+    height: 250px;
+    margin: 0;
+    padding: 0;
 }
 
+#quotes {
+  color: #fff;
+  font-weight: bold;
+  background: url(../images/paper.png) no-repeat;
+  background-size: cover;
+}
 
 /* OLD 
 h1 {
