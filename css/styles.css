@@ -104,15 +104,22 @@ a:hover {
   margin: 0 0 0 30px;
 }
 
-#hero {
-    color: #fff;
-    background: url(../images/writingphoto.jpg) no-repeat;
+#hero, #hero-overlay {
+    background-color: rgba(0,0,0,.7);
     height: 250px;
     margin: 0;
     padding: 0;
     /* HOW TO ALIGN TO MIDDLE?
        AND HOW TO GET THE IMAGE LIKE THE MOCKUP?  */
 }
+
+#hero {
+  color: #fff;
+  background: url(../images/writingphoto.jpg) no-repeat;
+  background-size: cover;
+}
+
+
 
 /* PADDING FOR EACH OF THE MAIN SECTIONS */
 .sections {
