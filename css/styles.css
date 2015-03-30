@@ -75,7 +75,6 @@ a {
 a:hover {
   background: #ccc;
   color: #fff;
-  font-weight: 500;
   border-radius: 2px;
   cursor: pointer;
   padding: 5px;
@@ -128,6 +127,12 @@ a:hover {
   color: #fff;
   background: url(../images/writingphoto.jpg) no-repeat;
   background-size: cover;
+}
+#hero a {
+  color: #fff; 
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
 }
 
 #hero-copy {
@@ -232,10 +237,6 @@ input[type="button"].button-primary:focus {
   border-radius: 50%;
   border: 2px solid #00dac6;
   margin-right: 25px;
-}
-
-.editor {
-  font-size: 13px;  /* CHANGE TO REM; IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
 }
 
 #steps {
