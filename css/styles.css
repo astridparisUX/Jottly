@@ -1,9 +1,12 @@
 /* TO-DO 
 -HEADER: How to make header sticky?
+-HERO: Add illustrations?
 -SCREENSHOT: What's going on with bottom shadow??
 -QUOTES: How to make paper bg more "crinkly?" 
+-FINAL CTA: How to vertically align link with button?
 -FOOTER: How to use a list, again, to put SM icons horizontal??
 -FOOTER: Fuzzy h4s on dark bg?
+
 -Check my work against PS-to-CSS output
 -Change px to rem (https://packagecontrol.io/packages/REM%20PX)
 */
@@ -183,7 +186,8 @@ input[type="button"].button-primary:focus {
   transform: translateY(20%);
   padding-top: 1.0rem;
   padding-bottom: 1.0rem;
-  font-weight: 500;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
   /* 
   FIGURE OUT HOW TO MAKE IT STICKY 
   position: fixed;
