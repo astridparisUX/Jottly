@@ -273,19 +273,22 @@ input[type="button"].button-primary:focus {
   /* How can I get more of the "crinkly" effect on the paper? */
   background-size: cover;
   box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-  -webkit-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
 }
 
-#quotes-circle {
+.quote-avatar {
   margin-right: 55px;
   width: 100px;
   height: 100px;
   background: #fff;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+  border: 2px solid #fff;
   border-radius: 50%;
-  border: 2px solid #00dac6;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
 #quotes p {
