@@ -241,13 +241,13 @@ input[type="button"].button-primary:focus {
 #screenshot {
   margin: 0;
   padding: 0;
+  background-color: #eee;
   background-size: cover;
   box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
     -webkit-box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
     -moz-box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
   padding-top: 4.0rem;
   padding-bottom: 0.5rem;
-  background-color: #eee;
 }
 
 /*** FEATURES ***/
@@ -255,8 +255,8 @@ input[type="button"].button-primary:focus {
   width: 100px;
   height: 100px;
   background: #fff;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
   border-radius: 50%;
   border: 2px solid #00dac6;
   margin-right: 25px;
