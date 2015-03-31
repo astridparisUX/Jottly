@@ -1,6 +1,7 @@
 /* TO-DO 
 -HEADER: How to make header sticky?
 -PRIMARY BUTTONS: Focus style not taking?
+-GHOST BUTTONS: What's overriding in the footer button? (looks janky on hover)
 -HERO: Add illustrations?
 -SCREENSHOT: What's going on with bottom shadow??
 -QUOTES: How to make paper bg more "crinkly?" 
@@ -185,13 +186,32 @@ input[type="button"] {
   box-sizing: border-box;
 }
 
-/*
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-*/
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #00dac6;
+  border-radius: 4px;
+  border: 2px solid #00dac6;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
 
 /*
 .button:focus,
@@ -412,7 +432,7 @@ input[type="button"]:focus {
 }
 
 .form-subscribe {
-  width: 60%;
+  width: 62%;
 }
 
 .social-circles {
