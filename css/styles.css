@@ -158,11 +158,6 @@ input[type="button"].button-primary:focus {
 }
 */
 
-.sections {
-  padding-top: 2.85rem;
-  padding-bottom: 1.5rem;
-}
-
 
 /*** HEADER ***/
 #header ul {
@@ -343,6 +338,8 @@ input[type="button"].button-primary:focus {
   background-color: #6d6d6d;
   font-size: 13px;
   width: 100%;
+  padding-top: 5.0rem;
+  padding-bottom: 3.0rem;
 }
 
 .footer ul li a {
