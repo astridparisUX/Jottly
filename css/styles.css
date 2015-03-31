@@ -1,7 +1,7 @@
 /* TO-DO 
+-HEADER: How to make header sticky?
 -QUOTES: How to make paper bg more "crinkly?" 
 -FOOTER: Fuzzy h4s on dark bg?
--FOOTER: Figure out how to display social media icons in CSS
 -Check my work against PS-to-CSS output
 -Change px to rem (https://packagecontrol.io/packages/REM%20PX)
 */
@@ -335,7 +335,6 @@ input[type="button"].button-primary:focus {
   width: 60%;
 }
 
-
 .social-circles {
   margin-right: 5px;
   width: 44px;
@@ -359,12 +358,12 @@ input[type="button"].button-primary:focus {
 
 .social-circles #linkedin {
   margin-top: 29%;
-  margin-left: 7%;
+  margin-left: 4%;
 }
 
 .social-circles #facebook {
   margin-top: 29%;
-  margin-left: 0%;
+  margin-left: -1%;
 }
 
 
