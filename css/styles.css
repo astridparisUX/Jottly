@@ -1,20 +1,12 @@
 /* TO-DO 
-
-    http://www.css3factory.com/linear-gradients/
-
-
--Figure out how to do CSS color overlay for paper/quotes section
-
-
--How to align things within divs?
--Best way to do footer links?
+-How to make paper bg more "crinkly?"
 -Check my work against PS-to-CSS output
 -Change px to rem (https://packagecontrol.io/packages/REM%20PX)
 -Figure out how to display social media icons in CSS
--Figure out how to do style for customer photo in quotes section
 */
 
-/* STILL NEED TO ADJUST */
+
+/*** GENERAL STYLES ***/
 h1, h2, h3 {
   margin-top: 0;
   font-weight: 600;
@@ -28,14 +20,12 @@ h1 {
 }
 
 h2 {
-  font-size: 3.6rem; /* should be 24 px */
-  /* IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
+  font-size: 3.6rem; 
   line-height: 1.25;
   letter-spacing: -.1rem;
 }
 h3 {
-  font-size: 3.0rem; /* should be 22 px allcaps */
-  /* IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
+  font-size: 3.0rem; 
   line-height: 1.3;
   letter-spacing: -.1rem;
   text-transform: uppercase;
@@ -44,27 +34,26 @@ h3 {
 /* Larger than phablet */
 @media (min-width:550px) {
   h1 {
-    font-size: 5.0rem; /*(equivalent of 70px) */
+    font-size: 5.0rem; 
   }
   h2 {
-    font-size: 3.4rem; /*(equivalent of ~59px) */
+    font-size: 3.4rem; 
   }
   h3 {
     font-size: 1.8rem; 
   }
 }
 
-p {
-  margin-top: 0;
-}
-
-/* IF I WANT TO MAKE THIS SMALLER, HOW DOES THAT AFFECT MEDIA QUERY? */
 body {
   font-size: 1.5em; 
   line-height: 1.6; 
   font-weight: normal;
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   color: #000;
+}
+
+p {
+  margin-top: 0;
 }
 
 a {
@@ -79,9 +68,85 @@ a:hover {
   cursor: pointer;
   padding: 5px;
   box-sizing: border-box;
-  /* FIX */
 }
 
+.button, 
+button, 
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #00dac6;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #00dac6;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* 
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; 
+}
+*/
+
+.button.button-primary, 
+button.button-primary, 
+input[type="submit"].button-primary, 
+input[type="reset"].button-primary, 
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #00dac6;
+  border: none;
+  box-shadow: 0 3px #00baa9;
+}
+
+/* 
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB; 
+}
+*/
+
+.sections {
+  padding-top: 2.85rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/*** HEADER ***/
 #header ul {
   list-style: none;
   float: right;
@@ -116,6 +181,9 @@ a:hover {
   */
 }
 
+
+
+/*** HERO ***/
 #hero, #hero-overlay {
     background-color: rgba(0,0,0,.6);
     height: 250px;
@@ -129,16 +197,11 @@ a:hover {
   background-size: cover;
   background-position: top -186px center;
 }
+
 #hero a {
   color: #fff; 
   font-size: 13px;
   text-decoration: none;
-}
-
-#hero-copy {
-  position: relative;
-  top:  50%;
-  transform: translateY(-45%);
 }
 
 #hero-button {
@@ -147,97 +210,28 @@ a:hover {
   transform: translateY(65%);
 }
 
-
-
-/* PADDING FOR EACH OF THE MAIN SECTIONS */
-.sections {
-  padding-top: 2.85rem;
-  padding-bottom: 1.5rem;
+#hero-copy {
+  position: relative;
+  top:  50%;
+  transform: translateY(-45%);
 }
 
-#final-cta {
-  padding-top: 5.0rem;
-  padding-bottom: 1.5rem;
-}
 
-.footer {
-  background-color: #6d6d6d;
-  color: #fff;
-  font-size: 13px;
-  width: 100%;
-}
-
-.footer ul {
-  list-style: none;
-}
-
-.footer a {
-  color: #fff; 
-  font-size: 13px;
-  text-decoration: none;
-}
-
-.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #00dac6;
+/*** STEPS ***/
+#steps {
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 2px solid #00dac6;
-  cursor: pointer;
-  box-sizing: border-box;
 }
 
-/* STILL NEED TO ADJUST 
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
 
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-    color: #333;
-    border-color: #888;
-    outline: 0; 
-}
-*/
-.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #00dac6;
-  border: none;
-  box-shadow: 0 3px #00baa9;
+/*** SCREENSHOT ***/
+.rectangle {
+  width: 500px;
+  height: 270px;
+  background: #00dac6;
 }
 
-/* STILL NEED TO ADJUST 
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-    color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB; 
-}
-*/
 
+/*** FEATURES ***/
 .circle {
   width: 100px;
   height: 100px;
@@ -249,16 +243,8 @@ input[type="button"].button-primary:focus {
   margin-right: 25px;
 }
 
-#steps {
-  text-align: center;
-}
 
-.rectangle {
-  width: 500px;
-  height: 270px;
-  background: #00dac6;
-}
-
+/*** QUOTES ***/
 #quotes, #quotes-overlay {
     background-color: rgba(0,219,198,0.5);
     height: 275px;
@@ -277,7 +263,11 @@ input[type="button"].button-primary:focus {
     -moz-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
 }
 
-.quote-avatar {
+#quotes p {
+  margin-left: 55px;
+}
+
+.quotes-avatar {
   margin-right: 55px;
   width: 100px;
   height: 100px;
@@ -291,67 +281,39 @@ input[type="button"].button-primary:focus {
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
-#quotes p {
-  margin-left: 55px;
-}
-
-.quote-author {
+.quotes-author {
     color: #666666;
     font-weight: 600;
 }
 
 
+/*** FINAL CTA ***/
+#final-cta {
+  padding-top: 5.0rem;
+  padding-bottom: 1.5rem;
+}
+
+
+/*** FOOTER***/
+.footer {
+  background-color: #6d6d6d;
+  color: #fff;
+  font-size: 13px;
+  width: 100%;
+}
+
+.footer a {
+  color: #fff; 
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
+}
+
 
 /* OLD 
-h1 {
-    color: #fff;
-    font-size: 36px;
-    font-family: "Lexia", Georgia, "Times New Roman", Times, serif;
-    font-weight: normal;
-}
-
-h2 {
-    color: #000;
-    font-size: 24px;
-    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-}
-
-h3 {
-    color: #000;
-    font-size: 14px;
-    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    text-align: center;
-}
-
-.btn-ghost {
-    height: 54px;
-    width: 125px;
-}
-
-.btn {
-    font-size: 18px;
-    height: 54px;
-    width: 200px;
-}
-
-.btn-ghost-small {
-    font-size: 16px;
-    height: 40px;
-    width: 75px;
-}
-
-.btn-ghost-med {
-    height: 54px;
-    width: 175px;
-}
-
-.btn-ghost-long {
-    height: 54px;
-    width: 250px;
-}
-
 .form-control {
     width: 300px;
     height: 25px;
