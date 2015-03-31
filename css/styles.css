@@ -112,13 +112,15 @@ input[type="button"] {
   box-sizing: border-box;
 }
 
-/* 
+/*
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:hover,
+input[type="button"]:hover {
+*/
 
+/*
 .button:focus,
 button:focus,
 input[type="submit"]:focus,
@@ -130,18 +132,31 @@ input[type="button"]:focus {
 }
 */
 
+
 .button.button-primary, 
 button.button-primary, 
 input[type="submit"].button-primary, 
 input[type="reset"].button-primary, 
 input[type="button"].button-primary {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
   color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
   background-color: #00dac6;
+  border-radius: 4px;
+  cursor: pointer;
   border: none;
   box-shadow: 0 3px #00baa9;
 }
 
-/* 
+
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -152,11 +167,23 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-    color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB; 
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #FFF;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #00c9b7;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
 }
-*/
+
 
 
 /*** HEADER ***/
