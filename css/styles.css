@@ -1,6 +1,7 @@
 /* TO-DO 
 -HEADER: How to make header sticky?
 -QUOTES: How to make paper bg more "crinkly?" 
+-FOOTER: How to use a list, again, to put SM icons horizontal??
 -FOOTER: Fuzzy h4s on dark bg?
 -Check my work against PS-to-CSS output
 -Change px to rem (https://packagecontrol.io/packages/REM%20PX)
@@ -248,6 +249,10 @@ input[type="button"].button-primary:focus {
   border-radius: 50%;
   border: 2px solid #00dac6;
   margin-right: 25px;
+}
+
+#features {
+  padding-top: 2.85rem;
 }
 
 
