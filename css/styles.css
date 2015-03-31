@@ -336,6 +336,50 @@ input[type="button"].button-primary:focus {
 }
 
 
+.social-icons {
+  margin-right: 5px;
+  width: 44px;
+  height: 44px;
+  background: #00dac6;
+  border: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+/*
+.social:hover,
+social:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+ margin-right: 5px;
+  width: 44px;
+  height: 44px;
+  background: #00dac6;
+  border: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  box-shadow: 0 3px #00baa9;
+
+.social:focus,
+social:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+     margin-right: 5px;
+  width: 44px;
+  height: 44px;
+  background: #00dac6;
+  border: none;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  box-shadow: 0 3px #00baa9;
+}
+*/
+
 
 
 /* OLD 
