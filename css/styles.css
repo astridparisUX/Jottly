@@ -270,10 +270,11 @@ input[type="button"].button-primary:focus {
   color: #fff;
   font-weight: bold;
   background: url(../images/paper.png) no-repeat;
+  /* How can I get more of the "crinkly" effect on the paper? */
   background-size: cover;
-  box-shadow: inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-  -webkit-box-shadow: inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
 }
 
 #quotes-circle {
