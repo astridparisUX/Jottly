@@ -300,7 +300,7 @@ input[type="button"].button-primary:focus {
 }
 
 #quotes-padding {
-  padding-top: 4.0rem;
+  padding-top: 6.0rem;
   padding-bottom: 0.5rem;
 }
 
@@ -321,6 +321,7 @@ input[type="button"].button-primary:focus {
 .quotes-author {
     color: #666666;
     font-weight: 600;
+    margin-top: -20px;
 }
 
 
