@@ -323,6 +323,11 @@ input[type="button"].button-primary:focus {
   list-style: none;
 }
 
+.copyright {
+  margin-top: 14px;
+  font-size: smaller;
+}
+
 
 /* OLD 
 .form-control {
