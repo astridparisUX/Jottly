@@ -247,7 +247,6 @@ input[type="button"].button-primary:focus {
 /*** QUOTES ***/
 #quotes, #quotes-overlay {
     background-color: rgba(0,219,198,0.5);
-    height: 275px;
     margin: 0;
     padding: 0;
 }
@@ -265,6 +264,11 @@ input[type="button"].button-primary:focus {
 
 #quotes p {
   margin-left: 55px;
+}
+
+#quotes-padding {
+  padding-top: 4.0rem;
+  padding-bottom: 0.5rem;
 }
 
 .quotes-avatar {
