@@ -36,6 +36,7 @@ h3 {
 }
 
 h4 {
+  color: #fff;
   font-size: 1.5rem; 
   text-transform: uppercase;
   margin-top: 0;
@@ -337,7 +338,7 @@ input[type="button"].button-primary:focus {
   width: 100%;
 }
 
-.footer ul, li a {
+.footer ul li a {
   color: #fff; 
 }
 
