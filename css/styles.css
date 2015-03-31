@@ -271,7 +271,11 @@ input[type="button"].button-primary:focus {
   font-weight: bold;
   background: url(../images/paper.png) no-repeat;
   background-size: cover;
+  box-shadow: inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
 }
+
 #quotes-circle {
   margin-right: 55px;
   width: 100px;
