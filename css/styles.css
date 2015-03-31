@@ -1,5 +1,6 @@
 /* TO-DO 
 -HEADER: How to make header sticky?
+-SCREENSHOT: What's going on with bottom shadow??
 -QUOTES: How to make paper bg more "crinkly?" 
 -FOOTER: How to use a list, again, to put SM icons horizontal??
 -FOOTER: Fuzzy h4s on dark bg?
@@ -348,6 +349,7 @@ input[type="button"].button-primary:focus {
   color: #fff; 
   margin-top: 14px;
   font-size: smaller;
+  font-weight: 100;
 }
 
 .form-subscribe {
