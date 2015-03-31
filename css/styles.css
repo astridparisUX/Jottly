@@ -268,7 +268,7 @@ input[type="button"].button-primary:focus {
 
 #quotes {
   color: #fff;
-  font-weight: bold;
+  font-weight: 500;
   background: url(../images/paper.png) no-repeat;
   /* How can I get more of the "crinkly" effect on the paper? */
   background-size: cover;
