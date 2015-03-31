@@ -328,6 +328,10 @@ input[type="button"].button-primary:focus {
   font-size: smaller;
 }
 
+.form-subscribe {
+  width: 60%;
+}
+
 
 /* OLD 
 .form-control {
