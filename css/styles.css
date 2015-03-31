@@ -276,7 +276,7 @@ input[type="button"].button-primary:focus {
   width: 100px;
   height: 100px;
   background: #fff;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
