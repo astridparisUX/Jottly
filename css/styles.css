@@ -239,6 +239,8 @@ input[type="button"].button-primary:focus {
 /*** STEPS ***/
 #steps {
   text-align: center;
+  padding-top: 5.0rem;
+  padding-bottom: 2.5rem;
 }
 
 
@@ -273,7 +275,8 @@ input[type="button"].button-primary:focus {
 }
 
 #features {
-  padding-top: 2.85rem;
+  padding-top: 7.0rem;
+  padding-bottom: 3.0rem;
 }
 
 
@@ -288,7 +291,6 @@ input[type="button"].button-primary:focus {
   color: #fff;
   font-weight: 500;
   background: url(../images/paper.png) no-repeat;
-  /* How can I get more of the "crinkly" effect on the paper? */
   background-size: cover;
   box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
     -webkit-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
@@ -301,7 +303,7 @@ input[type="button"].button-primary:focus {
 
 #quotes-padding {
   padding-top: 6.0rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2.0rem;
 }
 
 .quotes-avatar {
