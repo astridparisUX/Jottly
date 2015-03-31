@@ -238,6 +238,23 @@ input[type="button"].button-primary:focus {
   background: #00dac6;
 }
 
+#screenshot, #screenshot-overlay {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+#screenshot {
+  background-size: cover;
+  box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+}
+
+#screenshot-padding {
+  padding-top: 4.0rem;
+  padding-bottom: 0.5rem;
+}
 
 /*** FEATURES ***/
 .circle {
@@ -307,6 +324,10 @@ input[type="button"].button-primary:focus {
 #final-cta {
   padding-top: 5.0rem;
   padding-bottom: 1.5rem;
+}
+
+#final-cta a {
+  font-size: 13px;
 }
 
 
@@ -392,17 +413,5 @@ input[type="button"].button-primary:focus {
     font-size: 60px;
     font-family: "Lexia", Georgia, "Times New Roman", Times, serif;
     font-weight: normal;
-}
-
-#copyright {
-    font-size: 12px;
-    font-weight: normal;
-}
-
-#social{
-    background: #00dac6;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px; 
 }
 */
