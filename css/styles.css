@@ -1,7 +1,6 @@
 /* 
 QESTIONS___________________________________________________
 -FONTS: How do I know I've correctly pulled them in?
--HEADER: How to make header sticky?
 -NAV: Fuzzy nav links? Moving on over?
 -PRIMARY BUTTONS: Focus style not taking?
 -QUOTES: How to make paper bg more "crinkly?" 
@@ -270,7 +269,7 @@ input[type="button"].button-primary:focus {
   background: url(../images/writingphoto.jpg) no-repeat;
   background-size: cover;
   background-position: top -186px center;
-  margin-top: 90px;
+  margin-top: 93px;
 }
 
 #hero a {
