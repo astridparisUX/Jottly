@@ -240,7 +240,7 @@ input[type="button"].button-primary:focus {
 }
 
 #header ul li div {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 #header-nav {
@@ -263,6 +263,9 @@ input[type="button"].button-primary:focus {
   */
 }
 
+#logo {
+    padding-bottom: 25px;
+}
 
 
 /*** HERO ***/
