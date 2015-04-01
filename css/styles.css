@@ -5,14 +5,11 @@ QESTIONS___________________________________________________
 -NAV: Fuzzy nav links? Moving on over?
 -PRIMARY BUTTONS: Focus style not taking?
 -QUOTES: How to make paper bg more "crinkly?" 
--FOOTER: Fuzzy h4s on dark bg?
 
 ASTRID TO-DOs___________________________________________________
 -ABC styles
 -QUOTES: Add quotation marks
 -Check my work against PS-to-CSS output
--Change px to rem (https://packagecontrol.io/packages/REM%20PX)
-*/
 
 
 /*** GENERAL STYLES ***/
@@ -417,6 +414,12 @@ input[type="button"].button-primary:focus {
     color: #666666;
     font-weight: 600;
     margin-top: -20px;
+}
+
+#quotes-mark {
+  float: left;
+  width: 7%;
+  margin-left: 20px;
 }
 
 
