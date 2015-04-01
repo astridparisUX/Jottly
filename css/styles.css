@@ -6,16 +6,16 @@ QESTIONS___________________________________________________
 -QUOTES: How to make paper bg more "crinkly?" 
 
 ASTRID TO-DOs___________________________________________________
--ABC styles
+-Hover state for logo
 -Check my work against PS-to-CSS output
 
 
 /*** GENERAL STYLES ***/
 h1, h2, h3 {
-  margin-top: 0;
   font-weight: 600;
-  margin-bottom: -0.25rem;
   letter-spacing: -.1rem;
+  margin-bottom: -0.25rem;
+  margin-top: 0;
 }
 
 h3, h4 {
@@ -39,12 +39,11 @@ h3 {
 h4 {
   color: #fff;
   font-size: 1.5rem; 
-  text-transform: uppercase;
-  margin-top: 0;
-  font-weight: 600;
-  margin-bottom: -0.25rem;
-  letter-spacing: 0.05rem;
   font-weight: 400;
+  letter-spacing: 0.05rem;
+  margin-bottom: -0.25rem;
+  margin-top: 0;
+  text-transform: uppercase;
 }
 
 /* Larger than phablet */
@@ -61,11 +60,11 @@ h4 {
 }
 
 body {
-  font-size: 1.5em; 
-  line-height: 1.6; 
-  font-weight: normal;
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   color: #000;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-size: 1.5em; 
+  font-weight: normal;
+  line-height: 1.6; 
 }
 
 p {
@@ -79,11 +78,11 @@ a {
 
 a:hover {
   background: #ccc;
-  color: #fff;
+  box-sizing: border-box;
   border-radius: 2px;
+  color: #fff;
   cursor: pointer;
   padding: 5px;
-  box-sizing: border-box;
 }
 
 .button, 
@@ -91,48 +90,47 @@ button,
 input[type="submit"], 
 input[type="reset"], 
 input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
+  background-color: transparent;
+  border: 2px solid #00dac6;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: #00dac6;
-  text-align: center;
+  cursor: pointer;
+  display: inline-block;
   font-size: 12px;
   font-weight: 600;
-  line-height: 38px;
+  height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
+  line-height: 38px;
+  padding: 0 30px;
+  text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 2px solid #00dac6;
-  cursor: pointer;
-  box-sizing: border-box;
 }
-
 
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  text-align: center;
+  background-color: #00dac6;
+  border: 2px solid #00dac6;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: #fff;
+  cursor: pointer;
+  display: inline-block;
   font-size: 11px;
   font-weight: 600;
-  line-height: 38px;
+  height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
+  line-height: 38px;
+  padding: 0 30px;
+  text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   white-space: nowrap;
-  background-color: #00dac6;
-  border-radius: 4px;
-  border: 2px solid #00dac6;
-  cursor: pointer;
-  box-sizing: border-box;
 }
 
 /*
@@ -152,22 +150,22 @@ button.button-primary,
 input[type="submit"].button-primary, 
 input[type="reset"].button-primary, 
 input[type="button"].button-primary {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
+  background-color: #00dac6;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 3px #00baa9;
   color: #FFF;
-  text-align: center;
+  cursor: pointer;
+  display: inline-block;
   font-size: 11px;
   font-weight: 600;
-  line-height: 38px;
+  height: 38px;
   letter-spacing: .1rem;
+  line-height: 38px;
+  padding: 0 30px;
+  text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #00dac6;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0 3px #00baa9;
 }
 
 .button.button-primary:hover,
@@ -175,22 +173,22 @@ button.button-primary:hover,
 input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
 input[type="button"].button-primary:hover {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
+  background-color: #00c9b7;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: #FFF;
-  text-align: center;
+  cursor: pointer;
+  display: inline-block;
   font-size: 11px;
   font-weight: 600;
-  line-height: 38px;
+  height: 38px;
   letter-spacing: .1rem;
+  line-height: 38px;
+  padding: 0 30px;
+  text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #00c9b7;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  box-sizing: border-box;
 }
 
 .button.button-primary:focus,
@@ -198,37 +196,37 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #08edd9;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-decoration: none;
-  white-space: nowrap;
   background-color: #00c9b7;
   border-radius: 4px;
-  cursor: pointer;
   box-sizing: border-box;
+  color: #08edd9;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  height: 38px;
+  letter-spacing: .1rem;
+  line-height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 
 /*** HEADER ***/
 #header {
-  position: fixed;
-  top: -21px;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
   background-color: #fff;
   border-bottom: #ccc solid 1px;
+  left: 0;
+  position: fixed;
+  top: -21px;
+  width: 100%;
+  z-index: 9999;
 }
 #header ul {
-  list-style: none;
   float: right;
+  list-style: none;
 }
 
 #header ul li {
@@ -242,13 +240,13 @@ input[type="button"].button-primary:focus {
 }
 
 #header-nav {
+  font-weight: 600;
+  padding-bottom: 1.0rem;
+  padding-top: 2.3rem;
   position: relative;
+  text-rendering: optimizeLegibility;
   top:  50%;
   transform: translateY(20%);
-  padding-top: 2.3rem;
-  padding-bottom: 1.0rem;
-  font-weight: 600;
-  text-rendering: optimizeLegibility;
 }
 
 #logo {
@@ -265,10 +263,10 @@ input[type="button"].button-primary:focus {
 }
 
 #hero {
-  color: #fff;
   background: url(../images/writingphoto.jpg) no-repeat;
-  background-size: cover;
   background-position: top -186px center;
+  background-size: cover;
+  color: #fff;
   margin-top: 93px;
 }
 
@@ -294,8 +292,8 @@ input[type="button"].button-primary:focus {
 /*** STEPS ***/
 #steps {
   text-align: center;
-  padding-top: 5.3rem;
   padding-bottom: 2.3rem;
+  padding-top: 5.3rem;
 }
 
 #steps img {
@@ -304,67 +302,62 @@ input[type="button"].button-primary:focus {
 
 
 /*** SCREENSHOT ***/
-.rectangle {
-  width: 500px;
-  height: 270px;
-  background: #00dac6;
-}
-
 #screenshot img {
   margin-bottom: -7px;
 }
 
 #screenshot {
-  margin: 0;
-  padding: 0;
   background-color: #eee;
   background-size: cover;
-  /*top*/
-  box-shadow: 
-    inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25),
-      inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
-      inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
-      inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
+  box-shadow:
+    inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
+    inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
+      -webkit-box-shadow: 
+        inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
+        inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 
+        inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
+        inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
+  margin: 0;
+  padding: 0;
   padding-top: 7.0rem;
 }
 
 /*** FEATURES ***/
 .circle {
-  width: 100px;
-  height: 100px;
   background: #fff;
+  border: 3px solid #00dac6;
   border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-  border: 3px solid #00dac6;
+  height: 100px;
   margin-right: 25px;
+  width: 100px;
 }
 
 .circle #collaborate {
-  margin-top: 24%;
   margin-left: 18%;
+  margin-top: 24%;
 }
 
 .circle #profile {
-  margin-top: 27%;
   margin-left: 16%;
+  margin-top: 27%;
 }
 
 .circle #milestone {
+  margin-left: 27%;
   margin-top: 33%;
-  margin-left: 27%
 }
 
 .circle #calendar {
-  margin-top: 24%;
   margin-left: 21%;
+  margin-top: 24%;
 }
 
 #features {
-  padding-top: 7.0rem;
   padding-bottom: 3.0rem;
+  padding-top: 7.0rem;
 }
 
 
@@ -376,13 +369,19 @@ input[type="button"].button-primary:focus {
 }
 
 #quotes {
-  color: #fff;
-  font-weight: 500;
   background: url(../images/paper.png) no-repeat;
   background-size: cover;
-  box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-    -webkit-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  box-shadow: 
+    inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), 
+    inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+      -webkit-box-shadow: 
+        inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), 
+        inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+      -moz-box-shadow: 
+        inset 2px 6px 10px -5px rgba(0, 0, 0, 0.45), 
+        inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-weight: 500;
 }
 
 #quotes p {
@@ -390,14 +389,11 @@ input[type="button"].button-primary:focus {
 }
 
 #quotes-padding {
-  padding-top: 6.0rem;
   padding-bottom: 2.0rem;
+  padding-top: 6.0rem;
 }
 
 .quotes-avatar {
-  margin-right: 55px;
-  width: 100px;
-  height: 100px;
   background: #fff;
   border: 3px solid #fff;
   border-radius: 50%;
@@ -406,6 +402,9 @@ input[type="button"].button-primary:focus {
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+  height: 100px;
+  margin-right: 55px;
+  width: 100px;
 }
 
 .quotes-author {
@@ -416,15 +415,15 @@ input[type="button"].button-primary:focus {
 
 #quotes-mark {
   float: left;
-  width: 7%;
   margin-left: 20px;
+  width: 7%;
 }
 
 
 /*** FINAL CTA ***/
 #final-cta {
-  padding-top: 5.0rem;
   padding-bottom: 1.5rem;
+  padding-top: 5.0rem;
 }
 
 #final-cta a {
@@ -436,9 +435,9 @@ input[type="button"].button-primary:focus {
 .footer {
   background-color: #6d6d6d;
   font-size: 13px;
-  width: 100%;
-  padding-top: 5.0rem;
   padding-bottom: 3.0rem;
+  padding-top: 5.0rem;
+  width: 100%;
 }
 
 .footer ul li a {
@@ -451,9 +450,9 @@ input[type="button"].button-primary:focus {
 
 .copyright {
   color: #fff; 
-  margin-top: 14px;
   font-size: smaller;
   font-weight: 100;
+  margin-top: 14px;
 }
 
 .form-subscribe {
@@ -490,26 +489,16 @@ select:focus {
 }
 
 .social-circles #google {
-  margin-top: 28%;
   margin-left: 12%;
+  margin-top: 28%;
 }
 
 .social-circles #linkedin {
-  margin-top: 29%;
   margin-left: 4%;
+  margin-top: 29%;
 }
 
 .social-circles #facebook {
-  margin-top: 29%;
   margin-left: -1%;
+  margin-top: 29%;
 }
-
-
-/* OLD 
-#quotemark {
-    color: #fff;
-    font-size: 60px;
-    font-family: "Lexia", Georgia, "Times New Roman", Times, serif;
-    font-weight: normal;
-}
-*/
