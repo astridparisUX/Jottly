@@ -303,6 +303,10 @@ input[type="button"].button-primary:focus {
   padding-bottom: 2.3rem;
 }
 
+#steps img {
+  padding-bottom: 10px;
+}
+
 
 /*** SCREENSHOT ***/
 .rectangle {
