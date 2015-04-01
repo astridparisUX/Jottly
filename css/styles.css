@@ -317,14 +317,23 @@ input[type="button"].button-primary:focus {
   background: #00dac6;
 }
 
+#screenshot img {
+  margin-bottom: -7px;
+}
+
 #screenshot {
   margin: 0;
   padding: 0;
   background-color: #eee;
   background-size: cover;
-  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-    -webkit-box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.45), inset 0px -3px 10px -1px rgba(0, 0, 0, 0.45);
+  /*top*/
+  box-shadow: 
+    inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25),
+      inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
+      inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0px 6px 10px -5px rgba(0, 0, 0, 0.25), 
+      inset 0px -6px 10px -5px rgba(0, 0, 0, 0.25);
   padding-top: 7.0rem;
 }
 
@@ -471,15 +480,16 @@ select:focus {
   outline: 0; }
 
 .social-circles {
-  margin-right: 5px;
-  width: 44px;
-  height: 44px;
   background: #00dac6;
   border: none;
   border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+  float: right;
+  height: 44px;
+  margin-left: 5px;
   text-align: center;
+  width: 44px;
 }
 
 .social-circles #twitter {
