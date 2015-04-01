@@ -246,7 +246,7 @@ input[type="button"].button-primary:focus {
   position: relative;
   top:  50%;
   transform: translateY(20%);
-  padding-top: 1.0rem;
+  padding-top: 2.3rem;
   padding-bottom: 1.0rem;
   font-weight: 600;
   text-rendering: optimizeLegibility;
@@ -270,7 +270,7 @@ input[type="button"].button-primary:focus {
   background: url(../images/writingphoto.jpg) no-repeat;
   background-size: cover;
   background-position: top -186px center;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 #hero a {
