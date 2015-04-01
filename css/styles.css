@@ -9,6 +9,7 @@ QESTIONS___________________________________________________
 -FOOTER: Fuzzy h4s on dark bg?
 
 ASTRID TO-DOs___________________________________________________
+-ABC styles
 -QUOTES: Add quotation marks
 -Check my work against PS-to-CSS output
 -Change px to rem (https://packagecontrol.io/packages/REM%20PX)
@@ -438,12 +439,6 @@ input[type="button"].button-primary:focus {
 
 .footer ul li a {
   color: #fff; 
-}
-
-.footer a {
-  font-size: 13px;
-  text-decoration: none;
-  font-weight: 100;
 }
 
 .footer ul {
