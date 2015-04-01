@@ -8,7 +8,6 @@ QESTIONS___________________________________________________
 
 ASTRID TO-DOs___________________________________________________
 -ABC styles
--QUOTES: Add quotation marks
 -Check my work against PS-to-CSS output
 
 
@@ -219,6 +218,15 @@ input[type="button"].button-primary:focus {
 
 
 /*** HEADER ***/
+#header {
+  position: fixed;
+  top: -21px;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: #ccc solid 1px;
+}
 #header ul {
   list-style: none;
   float: right;
@@ -242,16 +250,6 @@ input[type="button"].button-primary:focus {
   padding-bottom: 1.0rem;
   font-weight: 600;
   text-rendering: optimizeLegibility;
-  /* 
-  FIGURE OUT HOW TO MAKE IT STICKY 
-  position: fixed;
-  top: -54px;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  background-color: #fff;
-  border-bottom: #ccc solid 1px;
-  */
 }
 
 #logo {
@@ -272,6 +270,7 @@ input[type="button"].button-primary:focus {
   background: url(../images/writingphoto.jpg) no-repeat;
   background-size: cover;
   background-position: top -186px center;
+  margin-top: 80px;
 }
 
 #hero a {
