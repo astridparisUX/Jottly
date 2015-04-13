@@ -213,6 +213,11 @@ input[type="button"].button-primary:focus {
   white-space: nowrap;
 }
 
+.scale-with-grid {             /* In-between the largest and smallest breakpoint, this looks fubar... */
+  max-width: 100%;
+  height: auto !important;
+}
+
 
 /*** HEADER ***/
 #header {
