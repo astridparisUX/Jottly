@@ -233,10 +233,10 @@ input[type="button"].button-primary:focus {
     @media only screen and (max-width: 399px) {
       #header {
         display: block;
-        margin-top: -32px;
-        padding-bottom: 25px;
+        margin-top: -23px;
+        padding-bottom: 0;
         text-align: center;
-        top: -28px;
+        top: 0;
       }
     }
 
@@ -277,24 +277,22 @@ input[type="button"].button-primary:focus {
   top:  50%;
   transform: translateY(20%);
 }
-
-/* Larger than mobile */
-@media only screen and (max-width: 399px) {
-  #header-nav {
-    padding-top: 1.3rem;
-  }
-}
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #header-nav {
+        padding-top: 1.3rem;
+      }
+    }
 
 #logo {
     padding-bottom: 25px;
 }
-
-/* Larger than mobile */
-@media only screen and (max-width: 399px) {
-  #logo {
-    padding-bottom: 5px;
-  }
-}
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #logo {
+        padding-bottom: 5px;
+      }
+    }
 
 
 /*** HERO ***/
@@ -304,6 +302,12 @@ input[type="button"].button-primary:focus {
     margin: 0;
     padding: 0;
 }
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #hero, #hero-overlay {
+        height: 312px;
+      }
+    }
 
 #hero {
   background: url(../images/writingphoto.jpg) no-repeat;
@@ -312,6 +316,13 @@ input[type="button"].button-primary:focus {
   color: #fff;
   margin-top: 93px;
 }
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #hero {
+        background-position: top 0px center;
+        margin-top: 61px;
+      }
+    }
 
 #hero a {
   color: #fff; 
