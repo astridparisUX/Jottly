@@ -229,26 +229,40 @@ input[type="button"].button-primary:focus {
   width: 100%;
   z-index: 9999;
 }
-
-/* Larger than mobile */
-@media only screen and (max-width: 399px) {
-  #header {
-    display: block;
-    margin-top: -32px;
-    text-align: center;
-  }
-}
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #header {
+        display: block;
+        margin-top: -32px;
+        padding-bottom: 25px;
+        text-align: center;
+        top: -28px;
+      }
+    }
 
 #header ul {
   float: right;
   list-style: none;
 }
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #header ul {
+        float: none;
+      }
+    }
 
 #header ul li {
   display: inline-block;
-  float: left;
   margin: 0 0 0 40px;
 }
+    /* Larger than mobile */
+    @media only screen and (max-width: 399px) {
+      #header ul li {
+        display: block;
+        margin: 0;
+      }
+    }
+
 
 #header ul li div {
   margin-top: 10px;
@@ -264,8 +278,22 @@ input[type="button"].button-primary:focus {
   transform: translateY(20%);
 }
 
+/* Larger than mobile */
+@media only screen and (max-width: 399px) {
+  #header-nav {
+    padding-top: 1.3rem;
+  }
+}
+
 #logo {
     padding-bottom: 25px;
+}
+
+/* Larger than mobile */
+@media only screen and (max-width: 399px) {
+  #logo {
+    padding-bottom: 5px;
+  }
 }
 
 
