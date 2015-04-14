@@ -229,6 +229,16 @@ input[type="button"].button-primary:focus {
   width: 100%;
   z-index: 9999;
 }
+
+/* Larger than mobile */
+@media only screen and (max-width: 399px) {
+  #header {
+    display: block;
+    margin-top: -32px;
+    text-align: center;
+  }
+}
+
 #header ul {
   float: right;
   list-style: none;
