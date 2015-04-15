@@ -580,6 +580,12 @@ input[type="button"].button-primary:focus {
   font-size: 13px;
 }
 
+@media only screen and (max-width: 399px) {
+#final-cta .button-primary {
+  width: 100%;
+}
+}
+
 
 /*** FOOTER***/
 .button-subscribe {
@@ -591,7 +597,7 @@ input[type="button"].button-primary:focus {
       width: 100%;
     }
   }
-  
+
 .copyright {
   color: #fff; 
   font-size: smaller;
