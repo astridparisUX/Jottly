@@ -616,6 +616,23 @@ input[type="button"].button-primary:focus {
 .form-subscribe {
   width: 62%;
 }
+   @media only screen and (max-width: 399px) {
+    .form-subscribe {
+      width: 100%;
+    }
+  }
+
+.button-subscribe {
+  float: right;
+}
+   @media only screen and (max-width: 399px) {
+    .button-subscribe {
+      margin-top: -5px;
+      width: 100%;
+    }
+  }
+
+  
 
 input[type="email"]:focus,
 input[type="number"]:focus,
