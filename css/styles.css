@@ -610,14 +610,21 @@ input[type="button"].button-primary:focus {
   color: #fff; 
   font-size: smaller;
   font-weight: 100;
-  margin-top: 14px;
+  margin-top: 10px;
+  margin-left: 0;
 }
+   @media only screen and (max-width: 399px) {
+    .copyright {
+      margin-top: 12%;
+    }
+  }
 
 .form-subscribe {
   width: 62%;
 }
    @media only screen and (max-width: 399px) {
     .form-subscribe {
+      margin-top: 10%;
       width: 100%;
     }
   }
@@ -651,6 +658,7 @@ select:focus {
     .social {
       float: left;
       margin-left: 5%;
+      margin-top: 3%;
     }
   }
 
