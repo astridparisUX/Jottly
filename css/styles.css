@@ -234,37 +234,19 @@ input[type="button"].button-primary:focus {
   width: 100%;
   z-index: 9999;
 }
-    /* Larger than mobile */
-    @media only screen and (max-width: 320px) {
-      #header {
-        display: block;
-        margin-top: -23px;
-        padding-bottom: 0;
-        text-align: center;
-        top: 0;
-      }
-    }
+    
 
 #header ul {
   float: right;
   list-style: none;
 }
-    @media only screen and (max-width: 320px) {
-      #header ul {
-        float: none;
-      }
-    }
+
 
 #header ul li {
   display: inline-block;
   margin: 0 0 0 40px;
 }
-    @media only screen and (max-width: 320px) {
-      #header ul li {
-        display: block;
-        margin: 0;
-      }
-    }
+
 
 #header ul li div {
   margin-top: 10px;
@@ -279,11 +261,7 @@ input[type="button"].button-primary:focus {
   top:  50%;
   transform: translateY(20%);
 }
-    @media only screen and (max-width: 320px) {
-      #header-nav {
-        padding-top: 1.3rem;
-      }
-    }
+
 
 #logo {
     padding-bottom: 25px;
