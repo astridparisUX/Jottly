@@ -592,6 +592,11 @@ input[type="button"].button-primary:focus {
   padding-top: 5.0rem;
   width: 100%;
 }
+  @media only screen and (max-width: 399px) {
+    .footer {
+      padding-top: 4.0rem;
+    }
+  }
 
 .footer ul li a {
   color: #fff; 
@@ -624,6 +629,14 @@ select:focus {
   border: 1px solid #005CDA;
   outline: 0; }
 
+
+  @media only screen and (max-width: 399px) {
+    .social {
+      float: left;
+      margin-left: 5%;
+    }
+  }
+
 .social-circles {
   background: #00dac6;
   border: none;
@@ -636,6 +649,12 @@ select:focus {
   text-align: center;
   width: 44px;
 }
+
+ @media only screen and (max-width: 399px) {
+    .social-circles {
+      margin-left: 15px;
+    }
+  }
 
 .social-circles #twitter {
   margin-top: 33%;
