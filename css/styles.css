@@ -218,7 +218,7 @@ input[type="button"].button-primary:focus {
   white-space: nowrap;
 }
 
-.scale-with-grid {             /* In-between the largest and smallest breakpoint, this looks fubar... */
+.scale-with-grid {             
   max-width: 100%;
   height: auto !important;
 }
@@ -321,6 +321,16 @@ input[type="button"].button-primary:focus {
         margin-top: 61px;
       }
     }
+   @media only screen and (min-width: 321px) and (max-width: 549px) {   
+      #hero {
+        background-position: top 0px center;
+      }
+    }
+   @media only screen and (min-width: 550px) {   
+      #hero {
+        background-position: top -22px center;
+      }
+    }
 
 #hero a {
   color: #fff; 
@@ -339,6 +349,12 @@ input[type="button"].button-primary:focus {
         transform: none;
       }
     }
+    @media only screen and (min-width: 321px) and (max-width: 549px) {   
+      #hero-button {
+        text-align: center;
+        transform: translateY(18%);
+      }
+    }
 
 #hero-copy {
   position: relative;
@@ -351,15 +367,21 @@ input[type="button"].button-primary:focus {
         top: -21%;
       }
     }
-
-     @media only screen and (max-width: 1440px) {
+   @media only screen and (min-width: 321px) and (max-width: 549px) {   
       #hero-copy {
-       transform: translateY(40%);
+        transform: translateY(19%);
+      }
+    }
+
+     @media only screen and (min-width: 560px) and (max-width: 1440px) { /*NEED HELP ON THIS ONE */
+      #hero-copy {
+         margin-right: 25%;
+         transform: translateY(40%);
       }
     }
     @media only screen and (min-width: 1441px) {
       #hero-copy {
-       transform: translateY(40%);
+         transform: translateY(40%);
       }
     }
 
@@ -370,8 +392,28 @@ input[type="button"].button-primary:focus {
         margin-bottom: 6px;
       }
     }
+   @media only screen and (min-width: 321px) and (max-width: 549px) {   
+      #hero-copy h1 {
+        font-size: 2.4rem;
+        line-height: 1.1;
+        margin-bottom: 6px;
+      }
+    }
+     @media only screen and (min-width: 550px) {   
+      #hero-copy h1 {
+        font-size: 2.4rem;
+        line-height: 1.1;
+        margin-bottom: 6px;
+      }
+    }
 
    @media only screen and (max-width: 320px) {
+      #hero-copy p {
+        line-height: 1.3;
+        margin-bottom: 27px;
+      }
+    }
+    @media only screen and (min-width: 321px) and (max-width: 549px) {   
       #hero-copy p {
         line-height: 1.3;
         margin-bottom: 27px;
@@ -491,7 +533,7 @@ input[type="button"].button-primary:focus {
     }
   }
 
-   @media only screen and (max-width: 1440px) {
+   @media only screen and (min-width: 560px) and (max-width: 1440px) {
     #features {
       padding-bottom: 3.0rem;
     }
@@ -586,7 +628,7 @@ input[type="button"].button-primary:focus {
     }
   }
 
-  @media only screen and (max-width: 1440px) {
+  @media only screen and (min-width: 560px) and (max-width: 1440px) {
     #quotes-padding {
       padding-bottom: 3rem;
       padding-top: 7rem;
