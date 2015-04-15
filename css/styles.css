@@ -234,6 +234,17 @@ input[type="button"].button-primary:focus {
   width: 100%;
   z-index: 9999;
 }
+    @media only screen and (min-width: 750px) {
+      #header-responsive {
+        display: none;
+      }
+    }
+       @media only screen and (max-width: 749px) {
+      #header {
+        display: none;
+      }
+    }
+
     
 
 #header ul {
@@ -244,7 +255,10 @@ input[type="button"].button-primary:focus {
 
 #header ul li {
   display: inline-block;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+
 }
 
 
@@ -262,6 +276,25 @@ input[type="button"].button-primary:focus {
   transform: translateY(20%);
 }
 
+#header-nav a:hover {
+  background: #ccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #fff;
+  padding: 5px;
+}
+
+#header-nav .button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background-color: #00dac6;
+  border-radius: 4px;
+  padding: 0 32px;
+  white-space: nowrap;
+}
+
 
 #logo {
     padding-bottom: 25px;
@@ -272,6 +305,9 @@ input[type="button"].button-primary:focus {
       }
     }
 
+#menu {
+  float: right;
+}
 
 /*** HERO ***/
 #hero, #hero-overlay {
