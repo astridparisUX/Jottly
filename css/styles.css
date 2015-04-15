@@ -348,13 +348,13 @@ input[type="button"].button-primary:focus {
     @media only screen and (max-width: 320px) {
       #hero-copy {
         text-align: center;
-        top: 51%;
+        top: -21%;
       }
     }
 
      @media only screen and (max-width: 1440px) {
       #hero-copy {
-       transform: translateY(40%);
+       transform: translateY(38%);
       }
     }
 
@@ -580,7 +580,7 @@ input[type="button"].button-primary:focus {
       padding-top: 4.0rem;
     }
   }
-  
+
   @media only screen and (max-width: 1440px) {
     #quotes-padding {
       padding-bottom: 3rem;
