@@ -234,12 +234,12 @@ input[type="button"].button-primary:focus {
   width: 100%;
   z-index: 9999;
 }
-    @media only screen and (min-width: 750px) {
+    @media only screen and (min-width: 960px) {
       #header-responsive {
         display: none;
       }
     }
-       @media only screen and (max-width: 749px) {
+       @media only screen and (max-width: 959px) {
       #header {
         display: none;
       }
@@ -255,11 +255,10 @@ input[type="button"].button-primary:focus {
 
 #header ul li {
   display: inline-block;
-  margin: 0 0 0 20px;
   padding-left: 12px;
   padding-right: 12px;
-
 }
+   
 
 
 #header ul li div {
