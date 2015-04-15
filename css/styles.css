@@ -528,6 +528,12 @@ input[type="button"].button-primary:focus {
   padding-bottom: 2.0rem;
   padding-top: 10.5rem;
 }
+  @media only screen and (max-width: 399px) {
+    #quotes-padding {
+      padding-top: 7.0rem;
+      padding-bottom: 1.0rem;
+    }
+  }
 
 .quotes-avatar {
   background: #fff;
@@ -542,6 +548,11 @@ input[type="button"].button-primary:focus {
   margin-right: 55px;
   width: 100px;
 }
+  @media only screen and (max-width: 399px) {
+    .quotes-avatar {
+      display: none;
+    }
+  }
 
 .quotes-author {
     color: #666666;
