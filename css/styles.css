@@ -352,6 +352,12 @@ input[type="button"].button-primary:focus {
       }
     }
 
+     @media only screen and (max-width: 1440px) {
+      #hero-copy {
+       transform: translateY(40%);
+      }
+    }
+
     @media only screen and (max-width: 320px) {
       #hero-copy h1 {
         font-size: 2.4rem;
