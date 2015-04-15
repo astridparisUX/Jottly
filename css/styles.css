@@ -486,6 +486,12 @@ input[type="button"].button-primary:focus {
     }
   }
 
+   @media only screen and (max-width: 1440px) {
+    #features {
+      padding-bottom: 3.0rem;
+    }
+  }
+
   @media only screen and (max-width: 320px) {
     #features h2 {
       font-size: 1.9rem;
@@ -569,7 +575,12 @@ input[type="button"].button-primary:focus {
 }
   @media only screen and (max-width: 320px) {
     #quotes-padding {
-      margin-left: -4%;
+      padding-top: 5.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    #quotes-padding {
       padding-bottom: 1.0rem;
       padding-top: 4.0rem;
     }
