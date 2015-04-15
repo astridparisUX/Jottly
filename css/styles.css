@@ -357,6 +357,11 @@ input[type="button"].button-primary:focus {
        transform: translateY(38%);
       }
     }
+    @media only screen and (min-width: 1441px) {
+      #hero-copy {
+       transform: translateY(40%);
+      }
+    }
 
     @media only screen and (max-width: 320px) {
       #hero-copy h1 {
@@ -585,6 +590,12 @@ input[type="button"].button-primary:focus {
     #quotes-padding {
       padding-bottom: 3rem;
       padding-top: 7rem;
+    }
+  }
+  @media only screen and (min-width: 1441px) {
+    #quotes-padding {
+      padding-bottom: 3rem;
+      padding-top: 7.5rem;
     }
   }
 
