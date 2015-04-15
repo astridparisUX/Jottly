@@ -244,7 +244,6 @@ input[type="button"].button-primary:focus {
   float: right;
   list-style: none;
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #header ul {
         float: none;
@@ -255,14 +254,12 @@ input[type="button"].button-primary:focus {
   display: inline-block;
   margin: 0 0 0 40px;
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #header ul li {
         display: block;
         margin: 0;
       }
     }
-
 
 #header ul li div {
   margin-top: 10px;
@@ -277,7 +274,6 @@ input[type="button"].button-primary:focus {
   top:  50%;
   transform: translateY(20%);
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #header-nav {
         padding-top: 1.3rem;
@@ -287,7 +283,6 @@ input[type="button"].button-primary:focus {
 #logo {
     padding-bottom: 25px;
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #logo {
         padding-bottom: 5px;
@@ -302,7 +297,6 @@ input[type="button"].button-primary:focus {
     margin: 0;
     padding: 0;
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #hero, #hero-overlay {
         height: 230px;
@@ -316,7 +310,6 @@ input[type="button"].button-primary:focus {
   color: #fff;
   margin-top: 93px;
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #hero {
         background-position: top 0px center;
@@ -335,7 +328,6 @@ input[type="button"].button-primary:focus {
   top:  50%;
   transform: translateY(65%);
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #hero-button {
         text-align: center;
@@ -343,13 +335,11 @@ input[type="button"].button-primary:focus {
       }
     }
 
-
 #hero-copy {
   position: relative;
   top:  0;
   transform: translateY(-45%);
 }
-    /* Larger than mobile */
     @media only screen and (max-width: 399px) {
       #hero-copy {
         text-align: center;
@@ -372,24 +362,25 @@ input[type="button"].button-primary:focus {
       }
     }
 
+
 /*** STEPS ***/
 #steps {
   text-align: center;
   padding-bottom: 2.3rem;
   padding-top: 5.3rem;
 }
-    @media only screen and (max-width: 399px) {
-      #steps {
-          padding-top: 4.0rem;
-          padding-bottom: 1.0rem;
-      }
+  @media only screen and (max-width: 399px) {
+    #steps {
+        padding-top: 4.0rem;
+        padding-bottom: 1.0rem;
     }
+  }
 
-    @media only screen and (max-width: 399px) {
-      #steps h3 {
-        font-size: 1.8rem;
-      }
+  @media only screen and (max-width: 399px) {
+    #steps h3 {
+      font-size: 1.8rem;
     }
+  }
 
 #steps img {
   padding-bottom: 10px;
@@ -434,6 +425,7 @@ input[type="button"].button-primary:focus {
   margin-bottom: -7px;
 }
 
+
 /*** FEATURES ***/
 .circle {
   background: #fff;
@@ -451,14 +443,14 @@ input[type="button"].button-primary:focus {
     }
   }
 
-.circle #collaborate {
-  margin-left: 18%;
+.circle #calendar {
+  margin-left: 21%;
   margin-top: 24%;
 }
 
-.circle #profile {
-  margin-left: 16%;
-  margin-top: 27%;
+.circle #collaborate {
+  margin-left: 18%;
+  margin-top: 24%;
 }
 
 .circle #milestone {
@@ -466,10 +458,11 @@ input[type="button"].button-primary:focus {
   margin-top: 33%;
 }
 
-.circle #calendar {
-  margin-left: 21%;
-  margin-top: 24%;
+.circle #profile {
+  margin-left: 16%;
+  margin-top: 27%;
 }
+
 
 #features {
   padding-bottom: 3.0rem;
@@ -477,25 +470,29 @@ input[type="button"].button-primary:focus {
 }
   @media only screen and (max-width: 399px) {
     #features {
-      padding-top: 4.0rem;
       padding-bottom: 2.5rem;
+      padding-top: 4.0rem;
     }
   }
+
   @media only screen and (max-width: 399px) {
     #features h2 {
       font-size: 1.9rem;
     }
   }
+
   @media only screen and (max-width: 399px) {
     #features img {
       display: none;
     }
   }
+
   @media only screen and (max-width: 399px) {
     #features p {
       margin-bottom: 0;
     }
   }
+
 
 /*** QUOTES ***/
 #quotes, #quotes-overlay {
@@ -524,16 +521,11 @@ input[type="button"].button-primary:focus {
   margin-left: 55px;
 }
 
-#quotes-padding {
-  padding-bottom: 2.0rem;
-  padding-top: 10.5rem;
+.quotes-author {
+    color: #666666;
+    font-weight: 600;
+    margin-top: -20px;
 }
-  @media only screen and (max-width: 399px) {
-    #quotes-padding {
-      padding-top: 7.0rem;
-      padding-bottom: 1.0rem;
-    }
-  }
 
 .quotes-avatar {
   background: #fff;
@@ -554,17 +546,22 @@ input[type="button"].button-primary:focus {
     }
   }
 
-.quotes-author {
-    color: #666666;
-    font-weight: 600;
-    margin-top: -20px;
-}
-
 #quotes-mark {
   float: left;
   margin-left: 20px;
   width: 7%;
 }
+
+#quotes-padding {
+  padding-bottom: 2.0rem;
+  padding-top: 10.5rem;
+}
+  @media only screen and (max-width: 399px) {
+    #quotes-padding {
+      padding-bottom: 1.0rem;
+      padding-top: 7.0rem;
+    }
+  }
 
 
 /*** FINAL CTA ***/
@@ -574,8 +571,8 @@ input[type="button"].button-primary:focus {
 }
   @media only screen and (max-width: 399px) {
     #final-cta {
-      padding-top: 3.7rem;
       padding-bottom: 0.9rem;
+      padding-top: 3.7rem;
     }
   }
 
@@ -585,6 +582,30 @@ input[type="button"].button-primary:focus {
 
 
 /*** FOOTER***/
+.button-subscribe {
+  float: right;
+}
+   @media only screen and (max-width: 399px) {
+    .button-subscribe {
+      margin-top: -5px;
+      width: 100%;
+    }
+  }
+  
+.copyright {
+  color: #fff; 
+  font-size: smaller;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-left: 0;
+}
+   @media only screen and (max-width: 399px) {
+    .copyright {
+      margin-left: 17%;
+      margin-top: 10%;
+    }
+  }
+
 .footer {
   background-color: #6d6d6d;
   font-size: 13px;
@@ -598,26 +619,18 @@ input[type="button"].button-primary:focus {
     }
   }
 
-.footer ul li a {
-  color: #fff; 
-}
-
 .footer ul {
   list-style: none;
 }
-
-.copyright {
-  color: #fff; 
-  font-size: smaller;
-  font-weight: 100;
-  margin-top: 10px;
-  margin-left: 0;
-}
-   @media only screen and (max-width: 399px) {
-    .copyright {
-      margin-top: 12%;
+  @media only screen and (max-width: 399px) {
+    .footer ul {
+        margin-bottom: 3.5rem;
     }
   }
+
+.footer ul li a {
+  color: #fff; 
+}
 
 .form-subscribe {
   width: 62%;
@@ -628,18 +641,6 @@ input[type="button"].button-primary:focus {
       width: 100%;
     }
   }
-
-.button-subscribe {
-  float: right;
-}
-   @media only screen and (max-width: 399px) {
-    .button-subscribe {
-      margin-top: -5px;
-      width: 100%;
-    }
-  }
-
-  
 
 input[type="email"]:focus,
 input[type="number"]:focus,
@@ -654,13 +655,12 @@ select:focus {
   outline: 0; }
 
 
-  @media only screen and (max-width: 399px) {
-    .social {
-      float: left;
-      margin-left: 5%;
-      margin-top: 3%;
-    }
+@media only screen and (max-width: 399px) {
+  .social {
+    float: left;
+    margin-left: -5%;
   }
+}
 
 .social-circles {
   background: #00dac6;
@@ -674,26 +674,43 @@ select:focus {
   text-align: center;
   width: 44px;
 }
-
  @media only screen and (max-width: 399px) {
     .social-circles {
-      margin-left: 15px;
+      height: 60px;
+      margin-left: 13px;
+      width: 60px;
     }
   }
 
 .social-circles #twitter {
   margin-top: 33%;
 }
+   @media only screen and (max-width: 399px) {
+    .social-circles #twitter {
+      margin-top: 37%;
+    }
+  }
 
 .social-circles #google {
   margin-left: 12%;
   margin-top: 28%;
 }
+ @media only screen and (max-width: 399px) {
+    .social-circles #google {
+      margin-left: 9%;
+      margin-top: 35%;
+    }
+  }
 
 .social-circles #linkedin {
   margin-left: 4%;
   margin-top: 29%;
 }
+ @media only screen and (max-width: 399px) {
+    .social-circles #linkedin {
+      margin-top: 32%;
+    }
+  }
 
 .social-circles #facebook {
   margin-left: -1%;
