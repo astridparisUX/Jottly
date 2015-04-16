@@ -607,11 +607,6 @@ input[type="button"]:hover {
 .button-subscribe {
   float: right;
 }
-   @media only screen and (max-width: 320px) {
-    .button-subscribe {
-      margin-top: -5px;
-    }
-  }
 
 .copyright {
   color: #fff; 
@@ -620,10 +615,9 @@ input[type="button"]:hover {
   margin-top: 10px;
   margin-left: 0;
 }
-   @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     .copyright {
-      margin-left: 17%;
-      margin-top: 10%;
+      text-align: center;
     }
   }
 
@@ -634,20 +628,15 @@ input[type="button"]:hover {
   padding-top: 5.0rem;
   width: 100%;
 }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     .footer {
-      padding-top: 4.0rem;
+      padding-top: 3.0rem;
     }
   }
 
 .footer ul {
   list-style: none;
 }
-  @media only screen and (max-width: 320px) {
-    .footer ul {
-        margin-bottom: 3.5rem;
-    }
-  }
 
 .footer ul li a {
   color: #fff; 
@@ -656,9 +645,9 @@ input[type="button"]:hover {
 .form-subscribe {
   width: 62%;
 }
-   @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     .form-subscribe {
-      margin-top: 10%;
+      margin-bottom: 2.5%;
       width: 100%;
     }
   }
@@ -675,14 +664,6 @@ select:focus {
   border: 1px solid #005CDA;
   outline: 0; }
 
-
-@media only screen and (max-width: 320px) {
-  .social {
-    float: left;
-    margin-left: -5%;
-  }
-}
-
 .social-circles {
   background: #00dac6;
   border: none;
@@ -695,43 +676,39 @@ select:focus {
   text-align: center;
   width: 44px;
 }
- @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     .social-circles {
-      height: 60px;
-      margin-left: 13px;
-      width: 60px;
+     height: 50px;
+     margin-left: 20px;
+     width: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .social {
+      float: left;
+      margin-bottom: 6%;
+      margin-left: 6%;
+      margin-top: -3%;
     }
   }
 
 .social-circles #twitter {
   margin-top: 33%;
 }
-   @media only screen and (max-width: 320px) {
-    .social-circles #twitter {
-      margin-top: 37%;
-    }
-  }
+
 
 .social-circles #google {
   margin-left: 12%;
   margin-top: 28%;
 }
- @media only screen and (max-width: 320px) {
-    .social-circles #google {
-      margin-left: 9%;
-      margin-top: 35%;
-    }
-  }
+
 
 .social-circles #linkedin {
   margin-left: 4%;
   margin-top: 29%;
 }
- @media only screen and (max-width: 320px) {
-    .social-circles #linkedin {
-      margin-top: 32%;
-    }
-  }
+
 
 .social-circles #facebook {
   margin-left: -1%;
