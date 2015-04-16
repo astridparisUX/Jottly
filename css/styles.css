@@ -404,6 +404,7 @@ input[type="button"]:hover {
       }
     }
 
+
 /*** SCREENSHOT ***/
 #screenshot {
   background-color: #eee;
@@ -421,15 +422,15 @@ input[type="button"]:hover {
   padding: 0;
   padding-top: 7.0rem;
 }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     #screenshot {
-      padding-top: 4.0rem;
+      padding-top: 2.5rem;
     }
   }
 
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     #screenshot h2 {
-      font-size: 1.9rem;
+      font-size: 2.1rem;
     }
   }
 
