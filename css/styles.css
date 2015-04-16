@@ -553,7 +553,7 @@ input[type="button"]:hover {
   margin-right: 55px;
   width: 100px;
 }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 400px) {
     .quotes-avatar {
       display: none;
     }
