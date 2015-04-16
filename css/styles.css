@@ -234,9 +234,9 @@ input[type="button"].button-primary:focus {
   width: 100%;
   z-index: 9999;
 }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 959px) {
       #header {
-        display: none; /* Hides regular header (condenses it) when viewing at screen sizes up to 400px */
+        display: none; /* Hides regular header (condenses it) when viewing at screen sizes up to 959px */
       }
     }
     
@@ -697,18 +697,15 @@ select:focus {
   margin-top: 33%;
 }
 
-
 .social-circles #google {
   margin-left: 12%;
   margin-top: 28%;
 }
 
-
 .social-circles #linkedin {
   margin-left: 4%;
   margin-top: 29%;
 }
-
 
 .social-circles #facebook {
   margin-left: -1%;
