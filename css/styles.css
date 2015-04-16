@@ -108,7 +108,7 @@ input[type="button"] {
   text-transform: uppercase;
   white-space: nowrap;
 }
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 400px) {
   .button, .button-primary {
     width: 100%;
   }
