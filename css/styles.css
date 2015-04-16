@@ -340,16 +340,7 @@ input[type="button"]:hover {
         margin-top: 61px;
       }
     }
-   @media only screen and (min-width: 321px) and (max-width: 549px) {   
-      #hero {
-        background-position: top 0px center;
-      }
-    }
-   @media only screen and (min-width: 550px) and (max-width: 959px) {   
-      #hero {
-        background-position: top -22px center;
-      }
-    }
+
 
 #hero a {
   color: #fff; 
@@ -368,12 +359,7 @@ input[type="button"]:hover {
         transform: none;
       }
     }
-    @media only screen and (min-width: 321px) and (max-width: 549px) {   
-      #hero-button {
-        text-align: center;
-        transform: translateY(18%);
-      }
-    }
+    
 
 #hero-copy {
   position: relative;
@@ -387,20 +373,8 @@ input[type="button"]:hover {
         transform: translateY(36%);
       }
     }
-   @media only screen and (min-width: 321px) and (max-width: 549px) {   
-      #hero-copy {
-        transform: translateY(19%);
-      }
-    }
-   @media only screen and (min-width: 550px) and (max-width: 959px) {
-      #hero-copy {
-        margin-right: 4%;
-        transform: translateY(20%);
-    }
-    @media only screen and (min-width: 960px) and (max-width: 1005px) { /* Why no worky?? next breakpoint is 1007*/
-      #hero-copy {
-        transform: translateY(19%);
-    }
+   
+  
 
     @media only screen and (max-width: 320px) {
       #hero-copy h1 {
@@ -536,11 +510,7 @@ input[type="button"]:hover {
     }
   }
 
-   @media only screen and (min-width: 560px) and (max-width: 1440px) {
-    #features {
-      padding-bottom: 3.0rem;
-    }
-  }
+   
 
   @media only screen and (max-width: 320px) {
     #features h2 {
@@ -631,18 +601,7 @@ input[type="button"]:hover {
     }
   }
 
-  @media only screen and (min-width: 560px) and (max-width: 1440px) {
-    #quotes-padding {
-      padding-bottom: 3rem;
-      padding-top: 7rem;
-    }
-  }
-  @media only screen and (min-width: 1441px) {
-    #quotes-padding {
-      padding-bottom: 3rem;
-      padding-top: 7.5rem;
-    }
-  }
+  
 
 
 /*** FINAL CTA ***/
