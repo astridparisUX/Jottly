@@ -570,10 +570,11 @@ input[type="button"]:hover {
   padding-top: 10.5rem;
 }
  
-   @media only screen and (max-width: 320px) {
+   @media only screen and (max-width: 400px) {
     #quotes-padding {
-      padding-bottom: 1.0rem;
-      padding-top: 4.0rem;
+      margin-left: 3%;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
     }
   }
 
