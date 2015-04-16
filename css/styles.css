@@ -321,7 +321,7 @@ input[type="button"]:hover {
     margin: 0;
     padding: 0;
 }
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 400px) {
       #hero, #hero-overlay {
         height: 245px;
       }
@@ -334,13 +334,11 @@ input[type="button"]:hover {
   color: #fff;
   margin-top: 93px;
 }
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 400px) {
       #hero {
         background-position: top 0px center;
-        margin-top: 61px;
       }
     }
-
 
 #hero a {
   color: #fff; 
@@ -353,50 +351,30 @@ input[type="button"]:hover {
   top:  50%;
   transform: translateY(65%);
 }
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 400px) {
       #hero-button {
         text-align: center;
         transform: none;
       }
     }
     
-
 #hero-copy {
   position: relative;
   top:  0;
-  /* transform: translateY(-45%); */
 }
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 400px) {
       #hero-copy {
-        text-align: center;
-        top: -21%;
+        top: -24%;
         transform: translateY(36%);
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      #hero-copy h1 {
+        font-size: 2.8rem;
       }
     }
    
   
-
-    @media only screen and (max-width: 320px) {
-      #hero-copy h1 {
-        font-size: 2.4rem;
-        line-height: 1.1;
-        margin-bottom: 6px;
-      }
-    }
-  /* @media only screen and (min-width: 321px) and (max-width: 549px) {   
-      #hero-copy h1 {
-        font-size: 2.4rem;
-        line-height: 1.1;
-        margin-bottom: 6px;
-      }
-    } */
-   @media only screen and (max-width: 320px) {
-      #hero-copy p {
-        line-height: 1.3;
-        margin-bottom: 27px;
-      }
-    }
-
 
 /*** STEPS ***/
 #steps {
