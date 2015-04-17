@@ -10,10 +10,6 @@ ASTRID TO-DOs___________________________________________________
 -Check my work against PS-to-CSS output
 
 /*** GENERAL STYLES ***/
-
-#header-nav-menu-mobile { display: block; }
-
-
 h1, h2, h3 {
   font-weight: 600;
   letter-spacing: -.1rem;
@@ -277,6 +273,14 @@ input[type="button"].button-primary:focus {
   text-rendering: optimizeLegibility;
   top:  50%;
   transform: translateY(20%);
+}
+
+#header-nav-menu-mobile { 
+  display: block; 
+}
+
+#header-nav ul { 
+  list-style: none;
 }
 
 #header-nav a:hover {
