@@ -303,7 +303,7 @@ input[type="button"]:hover {
   margin-left: 27%;
 }
 
-#header-responsive button { 
+#header-responsive #header-nav .button { /* Removes the sign up button from header when viewing on smaller screens*/
   display: none;
 }
 
