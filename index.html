@@ -47,7 +47,14 @@
             <img src="images/logo.png" alt="Jottly logo" title="Jottly logo" id="logo">
           </div>
           <div class="nine columns u-pull-right">
-            <img src="images/menu.png" alt="menu icon" title="menu icon" id="menu">
+            <img src="images/menu.png" onclick="openMenu()" alt="menu icon" title="menu icon" id="menu">
+            <ul id="mobile-ul">
+              <li><div><a href="#">How it Works</a></div></li>
+              <li><div><a href="#">Browse Editors</a></div></li> 
+              <li><div><a href="#">Browse Editing Jobs</a></li>
+              <li><div><a href="#">Sign In</a></div></li>
+              <li><a class="button" href="#">Sign up</a></li>
+            </ul> 
               <!-- Is this the start of what I'd do for the JS?
                   <a href="#" onclick="functionName()"><img src="images/menu.png" alt="menu icon" title="menu icon" id="menu"></a>     
 
@@ -367,6 +374,15 @@
       </div>
     </div>
   </div>
+
+  <script>
+    // function openMenu(){
+    //   console.log("working");
+    //   var menu = document.getElementById("mobile-ul");      
+    //   menu.style.display = "block";
+    // }
+
+  </script>
 
   </body>
 </html>
