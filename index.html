@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/skeleton.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <!-- FAVICON -->
+    <!-- FAVICON START -->
       <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
       <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
@@ -34,6 +34,7 @@
       <meta name="msapplication-TileColor" content="#2d89ef">
       <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
       <meta name="theme-color" content="#ffffff">
+    <!-- FAVICON END -->
   </head>
   <body>
 
@@ -47,34 +48,16 @@
             <img src="images/logo.png" alt="Jottly logo" title="Jottly logo" id="logo">
           </div>
           <div class="nine columns u-pull-right">
-            <img src="images/menu.png" onclick="openMenu()" alt="menu icon" title="menu icon" id="menu">
-            <ul id="header-nav-menu-mobile">
+            <img src="images/menu.png" alt="menu icon" title="menu icon" id="menu">
+            <div class="header-nav-menu-mobile-testing">
+            <ul class="header-nav-menu-mobile">
               <li><div><a href="#">How it Works</a></div></li>
               <li><div><a href="#">Browse Editors</a></div></li> 
               <li><div><a href="#">Browse Editing Jobs</a></li>
               <li><div><a href="#">Sign In</a></div></li>
               <li><a class="button" href="#">Sign up</a></li>
             </ul> 
-              <!-- Is this the start of what I'd do for the JS?
-                  <a href="#" onclick="functionName()"><img src="images/menu.png" alt="menu icon" title="menu icon" id="menu"></a>     
-
-                  and at the bottom of this HTML page (before closing body tag--OR is it better practice ot put into a separate .js file, since if this was a real site, we would need it on all pages?), put this (but change the object from alert to whatever it needs to be and stuff)
-
-                 <script>
-                    function functionName(){
-                        alert("The link has been clicked!");
-                    }
-                  </script>
-                -->
-            <!--
-            <ul>
-              <li><div><a href="#">How it Works</a></div></li>
-              <li><div><a href="#">Browse Editors</a></div></li> 
-              <li><div><a href="#">Browse Editing Jobs</a></li>
-              <li><div><a href="#">Sign In</a></div></li>
-              <li><a class="button" href="#">Sign up</a></li>
-            </ul> 
-            -->
+          </div>
           </div>
         </div>
       </div>
@@ -374,15 +357,21 @@
       </div>
     </div>
   </div>
+  
+  <script type="text/javascript">
+    var toggleButton = document.getElementById('menu'),
+    slide = document.querySelector('.header-nav-menu-mobile');
 
-  <script>
-    // function openMenu(){
-    //   console.log("working");
-    //   var menu = document.getElementById("header-nav-menu-mobile");      
-    //   menu.style.display = "block";
-    // }
+    toggleButton.addEventListener('click', menu, false);
 
+    function menu() {
+      if (slide.classList.contains('slide-up')) {
+        slide.classList.remove('slide-up');
+      } else {
+        slide.classList.add('slide-up');
+      }
+    }
   </script>
-
+  
   </body>
 </html>

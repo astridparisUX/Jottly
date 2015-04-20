@@ -9,6 +9,10 @@ ASTRID TO-DOs___________________________________________________
 -Hover state for logo
 -Check my work against PS-to-CSS output
 
+
+<!-- To animated the nav menu when viewing at 400px or below -->
+
+
 /*** GENERAL STYLES ***/
 h1, h2, h3 {
   font-weight: 600;
@@ -264,17 +268,28 @@ input[type="button"].button-primary:focus {
   transform: translateY(20%);
 }
 
-#header-nav-menu-mobile { 
+.header-nav-menu-mobile { 
   display: block; 
+  transition: .5s cubic-bezier(0, 1, 0.5, 1);
+  transform: translateY(0);
 }
 
-#header-nav-menu-mobile li { 
+.header-nav-menu-mobile-testing {
+  overflow: hidden;
+}
+
+.slide-up {
+  transform: translateY(-100%);
+}
+
+
+.header-nav-menu-mobile li { 
   border-top: 1px solid #ccc; /* Puts horizontal lines between nav menu items on smaller screens */
   border-width: 1px 0;
   padding-top: 4%;
 }
 
-#header-nav-menu-mobile li a { /* Is there a way to make the whole li the target (so I can give the whole "row" the hover state) with just CSS? */
+.header-nav-menu-mobile li a { /* Is there a way to make the whole li the target (so I can give the whole "row" the hover state) with just CSS? */
   margin-left: 32%
 }
 
@@ -334,6 +349,7 @@ input[type="button"]:hover {
         margin-right: 6%;
         margin-top: -9.5%;
         padding-top: 0;
+        cursor: pointer;
       }
     }
 
