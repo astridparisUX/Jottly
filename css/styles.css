@@ -235,7 +235,7 @@ input[type="button"].button-primary:focus {
 }
     @media only screen and (max-width: 959px) {
       #header {
-        display: none; /* Hides regular header (condenses it) when viewing at screen sizes up to 959px */
+        display: none; /* Condenses regular header when viewing at screen sizes up to 959px */
       }
     }
     
@@ -654,6 +654,28 @@ input[type="button"]:hover {
   @media only screen and (max-width: 400px) {
     .footer {
       padding-top: 3.0rem;
+    }
+  }
+
+  @media only screen and (max-width: 959px) {
+    .footer {
+      display: none; 
+    }
+  }
+  
+  @media only screen and (min-width: 960px) {
+    .footer-mobile {
+      display: none; 
+    }
+  }
+
+    @media only screen and (max-width: 959px) {
+    .footer-mobile {
+      background-color: #6d6d6d;
+      font-size: 13px;
+      padding-bottom: 3.0rem;
+      padding-top: 5.0rem;
+      width: 100%;
     }
   }
 
