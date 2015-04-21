@@ -340,7 +340,12 @@ input[type="button"]:hover {
       margin-top: -15.5%;
     }
   }
-  @media only screen and (min-width: 549px) and (max-width: 594px) {
+  @media only screen and (min-width: 549px) and (max-width: 549px) {
+    #header-responsive {
+      margin-top: -15%;
+    }
+  }
+    @media only screen and (min-width: 550px) and (max-width: 594px) {
     #header-responsive {
       margin-top: -12%;
     }
@@ -569,9 +574,14 @@ input[type="button"]:hover {
     margin: 0;
     padding: 0;
 }
-    @media only screen and (max-width: 959px) {
+    @media only screen and (max-width: 549px) {
       #hero, #hero-overlay {
-        height: 245px;
+        height: 285px;
+      }
+    }
+     @media only screen and (min-width: 550px) and (max-width: 960px) {
+      #hero, #hero-overlay {
+        height: 205px;
       }
     }
 
@@ -604,31 +614,65 @@ input[type="button"]:hover {
         text-align: center;
         transform: none;
       }
-    }
+    } 
     
 #hero-copy {
   position: relative;
   top:  0;
 }
-    @media only screen and (max-width: 519px) {
+    @media only screen and (max-width: 548px) {
       #hero-copy {
         top: -24%;
         transform: translateY(36%);
       }
     }
-     @media only screen and (min-width: 520px) {
+    @media only screen and (min-width: 549px) and (max-width: 549px) {
       #hero-copy {
-       top: -14%;
-       transform: translateY(36%);
+        top: -16%;
+        transform: translateY(36%);
       }
     }
+    @media only screen and (min-width: 550px) and (max-width: 960px) {
+      #hero-copy {
+        top: -16%;
+        transform: translateY(36%);
+      }
+    }
+
+
+
+
     @media only screen and (max-width: 959px) {
       #hero-copy h1 {
         font-size: 2.8rem;
+        line-height: 3.25rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+    @media only screen and (max-width: 959px) {
+      #hero-copy p {
+        margin-bottom: 2.5rem;
+        line-height: 2.25rem;
       }
     }
    
-  
+    @media only screen and (max-width: 478px) {
+      #hero-copy-tagline {
+        width: 75%;
+      }
+    }
+
+     @media only screen and (min-width: 479px) and (max-width: 548px) {
+      #hero-copy-tagline {
+        width: 63%;
+      }
+    }
+      @media only screen and (min-width: 549px) and (max-width: 960px) {
+      #hero-copy-tagline {
+        width: 72%;
+      }
+    }
+
 
 /*** STEPS ***/
 #steps {
