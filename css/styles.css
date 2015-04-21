@@ -296,49 +296,158 @@ input[type="button"]:hover {
   padding: 0 32px;
   white-space: nowrap;
 }
-  @media only screen and (max-width: 479px) {
+
+
+
+  @media only screen and (max-width: 404px) {
+    #header-responsive {
+      margin-bottom: -20%;
+      margin-top: -19%;
+    }
+  }
+  @media only screen and (min-width: 405px) and (max-width: 411px) {
     #header-responsive {
       margin-top: -19%;
-      margin-bottom: -20%;
+    }
+  }
+  @media only screen and (min-width: 412px) and (max-width: 454px) {
+    #header-responsive {
+      margin-top: -18%;
+    }
+  }
+  @media only screen and (min-width: 455px) and (max-width: 459px) {
+    #header-responsive {
+      margin-top: -17.5%;
+    }
+  }
+  @media only screen and (min-width: 460px) and (max-width: 474px) {
+    #header-responsive {
+      margin-top: -17%;
+    }
+  }
+   @media only screen and (min-width: 475px) and (max-width: 515px) {
+    #header-responsive {
+      margin-top: -16.5%;
+    }
+  }
+   @media only screen and (min-width: 516px) and (max-width: 540px) {
+    #header-responsive {
+      margin-top: -16%;
+    }
+  }
+   @media only screen and (min-width: 541px) and (max-width: 548px) {
+    #header-responsive {
+      margin-top: -15.5%;
+    }
+  }
+  @media only screen and (min-width: 549px) and (max-width: 594px) {
+    #header-responsive {
+      margin-top: -12%;
+    }
+  }
+  @media only screen and (min-width: 595px) and (max-width: 649px) {
+    #header-responsive {
+      margin-top: -11%;
+    }
+  }
+  @media only screen and (min-width: 650px) and (max-width: 719px) {
+    #header-responsive {
+      margin-top: -10%;
+    }
+  }
+  @media only screen and (min-width: 720px) and (max-width: 814px) {
+    #header-responsive {
+      margin-top: -9%;
+    }
+  }
+   @media only screen and (min-width: 815px) and (max-width: 960px) {
+    #header-responsive {
+      margin-top: -8%;
     }
   }
 
-  @media only screen and (min-width: 480px) and (max-width: 540px) {
+  @media only screen and (min-width: 405px) and (max-width: 413px) {
     #header-responsive {
-      margin-top: -16%;
-      margin-bottom: -20%;
+      margin-bottom: -19.5%;
     }
   }
-  @media only screen and (min-width: 541px) and (max-width: 548px) {
+ @media only screen and (min-width: 414px) and (max-width: 424px) {
     #header-responsive {
-      margin-top: -15%;
-      margin-bottom: -20%;
+      margin-bottom: -19%;
     }
   }
-  @media only screen and (min-width: 549px) and (max-width: 719px) {
+ @media only screen and (min-width: 425px) and (max-width: 435px) {
     #header-responsive {
-      margin-top: -12%;
-      margin-bottom: -20%;
+      margin-bottom: -18.5%;
     }
   }
-  @media only screen and (min-width: 720px) and (max-width: 800px) {
+ @media only screen and (min-width: 436px) and (max-width: 445px) {
     #header-responsive {
-      margin-top: -10%;
-      margin-bottom: -20%;
+      margin-bottom: -18%;
     }
   }
-  @media only screen and (min-width: 801px) and (max-width: 920px) {
+ @media only screen and (min-width: 446px) and (max-width: 459px) {
     #header-responsive {
-      margin-top: -9%;
-      margin-bottom: -20%;
+      margin-bottom: -17.5%;
     }
   }
-  @media only screen and (min-width: 921px) and (max-width: 960px) {
+ @media only screen and (min-width: 460px) and (max-width: 466px) {
     #header-responsive {
-      margin-top: -8%;
-      margin-bottom: -20%;
+      margin-bottom: -17.25%;
     }
   }
+ @media only screen and (min-width: 467px) and (max-width: 473px) {
+    #header-responsive {
+      margin-bottom: -17%;
+    }
+  }
+ @media only screen and (min-width: 474px) and (max-width: 483px) {  
+    #header-responsive {
+      margin-bottom: -16.75%;
+    }
+  }
+  @media only screen and (min-width: 484px) and (max-width: 500px) {  
+    #header-responsive {
+      margin-bottom: -16%;
+    }
+  }
+   @media only screen and (min-width: 501px) and (max-width: 507px) {  
+    #header-responsive {
+      margin-bottom: -15.75%;
+    }
+  }
+    @media only screen and (min-width: 508px) and (max-width: 520px) {  
+    #header-responsive {
+      margin-bottom: -15.5%;
+    }
+  }
+    @media only screen and (min-width: 521px) and (max-width: 530px) {  
+    #header-responsive {
+      margin-bottom: -15.25%;
+    }
+  }
+    @media only screen and (min-width: 531px) and (max-width: 535px) {  
+    #header-responsive {
+      margin-bottom: -15%;
+    }
+  }
+  @media only screen and (min-width: 536px) and (max-width: 544px) {
+    #header-responsive {
+      margin-bottom: -14.75%;
+    }
+  }
+  @media only screen and (min-width: 545px) and (max-width: 549px) {
+    #header-responsive {
+      margin-bottom: -14.5%;
+    }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 800px) {
+    #header-responsive {
+      margin-bottom: -13%;
+    }
+  }
+
+
     @media only screen and (min-width: 960px) {
       #header-responsive {
         display: none; 
