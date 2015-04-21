@@ -107,7 +107,7 @@ input[type="button"] {
   text-transform: uppercase;
   white-space: nowrap;
 }
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 959px) {
   .button, .button-primary {
     width: 100%;
   }
@@ -296,7 +296,7 @@ input[type="button"]:hover {
   padding: 0 32px;
   white-space: nowrap;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     #header-responsive {
       margin-top: -19%;
       margin-bottom: -19%;
@@ -320,7 +320,7 @@ input[type="button"]:hover {
 #logo {
     padding-bottom: 25px;
 }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 959px) {
       #header-responsive #header-nav #logo { /* Makes nav area shorter vertically (decreases white space) */
         margin-bottom: 1%;
         margin-left: 4%;
@@ -328,7 +328,7 @@ input[type="button"]:hover {
         width: 100px;
       }
     }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 959px) {
       #header-responsive #header-nav #menu { /* Makes nav area shorter vertically (decreases white space) */
         float: right;
         margin-right: 6%;
@@ -344,7 +344,7 @@ input[type="button"]:hover {
     margin: 0;
     padding: 0;
 }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 959px) {
       #hero, #hero-overlay {
         height: 245px;
       }
@@ -357,7 +357,7 @@ input[type="button"]:hover {
   color: #fff;
   margin-top: 93px;
 }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 959px) {
       #hero {
         background-position: top 0px center;
       }
@@ -374,7 +374,7 @@ input[type="button"]:hover {
   top:  50%;
   transform: translateY(65%);
 }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 959px) {
       #hero-button {
         text-align: center;
         transform: none;
@@ -385,13 +385,13 @@ input[type="button"]:hover {
   position: relative;
   top:  0;
 }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 959px) {
       #hero-copy {
         top: -24%;
         transform: translateY(36%);
       }
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 959px) {
       #hero-copy h1 {
         font-size: 2.8rem;
       }
@@ -405,7 +405,7 @@ input[type="button"]:hover {
   padding-bottom: 2.3rem;
   padding-top: 5.3rem;
 }
-    @media only screen and (max-width: 400px) { /* For screens 400px & below, decrease white space on top & bottom*/
+    @media only screen and (max-width: 959px) { 
       #steps  {
         padding-bottom: 0;
         padding-top: 2.2rem;
@@ -415,13 +415,13 @@ input[type="button"]:hover {
 #steps img {
   padding-bottom: 10px;
 }
-    @media only screen and (max-width: 400px) { /* For screens 400px & below, hide icons*/
+    @media only screen and (max-width: 959px) { 
       #steps img {
         display: none;
       }
     }
 
-    @media only screen and (max-width: 400px) { /* For screens 400px & below, hide icons*/
+    @media only screen and (max-width: 959px) { 
       #steps h3 {
         font-size: 2rem;
       }
@@ -445,13 +445,13 @@ input[type="button"]:hover {
   padding: 0;
   padding-top: 7.0rem;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     #screenshot {
       padding-top: 2.5rem;
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     #screenshot h2 {
       font-size: 2.1rem;
     }
@@ -473,7 +473,7 @@ input[type="button"]:hover {
   margin-right: 25px;
   width: 100px;
 }
-  @media only screen and (max-width: 400px) { /* Hide icons when viewing at 400px or below */
+  @media only screen and (max-width: 959px) { 
     .circle {
       display: none;
     }
@@ -503,26 +503,26 @@ input[type="button"]:hover {
   padding-bottom: 3.0rem;
   padding-top: 7.0rem;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     #features {
       padding-bottom: 1.5rem;
       padding-top: 3rem;
     }
   }
 
-  @media only screen and (max-width: 400px) { /* Makes h2s same size as h2s in Screenshot section */
+  @media only screen and (max-width: 959px) { /* Makes h2s same size as h2s in Screenshot section */
     #features h2 {
       font-size: 2.1rem;
     }
   }
 
-  @media only screen and (max-width: 400px) { /* Makes h2s same size as h2s in Screenshot section */
+  @media only screen and (max-width: 959px) { /* Makes h2s same size as h2s in Screenshot section */
     #features p {
       margin-bottom: 0.5rem;
     }
   }
 
-  @media only screen and (max-width: 400px) { 
+  @media only screen and (max-width: 959px) { 
     #features hr {
       margin-top: 2rem;
       margin-bottom: 2.5rem;
@@ -576,7 +576,7 @@ input[type="button"]:hover {
   margin-right: 55px;
   width: 100px;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     .quotes-avatar {
       display: none;
     }
@@ -592,7 +592,7 @@ input[type="button"]:hover {
   padding-bottom: 2.0rem;
   padding-top: 10.5rem;
 }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 959px) {
     #quotes-padding {
       margin-left: 3%;
       padding-bottom: 1rem;
@@ -606,7 +606,7 @@ input[type="button"]:hover {
   padding-bottom: 1.5rem;
   padding-top: 5.0rem;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     #final-cta {
       padding-bottom: 0.5rem;
       padding-top: 3.5rem;
@@ -618,7 +618,7 @@ input[type="button"]:hover {
   font-size: 13px;
 }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     #final-cta p {
       text-align: center;
 
@@ -630,6 +630,12 @@ input[type="button"]:hover {
 .button-subscribe {
   float: right;
 }
+  @media only screen and (max-width: 959px) {
+    .button-subscribe {
+      float:  none;
+      width: 85%;
+    }
+  }
 
 .copyright {
   color: #fff; 
@@ -638,7 +644,7 @@ input[type="button"]:hover {
   margin-top: 10px;
   margin-left: 0;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     .copyright {
       text-align: center;
     }
@@ -651,7 +657,7 @@ input[type="button"]:hover {
   padding-top: 5.0rem;
   width: 100%;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     .footer {
       padding-top: 3.0rem;
     }
@@ -662,20 +668,42 @@ input[type="button"]:hover {
       display: none; 
     }
   }
+
+    @media only screen and (max-width: 959px) {
+    #footerbullets {
+      color: #ccc; 
+      font-size: 1.5rem;
+      font-weight: bolder;
+    }
+  }
+
+  @media only screen and (max-width: 959px) {
+    #footerlinks {
+      color: #ccc; 
+      white-space: nowrap;
+    }
+  }
   
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 960px) {  /* Hides the smaller version of the footer at 960px+ */
     .footer-mobile {
       display: none; 
     }
   }
 
-    @media only screen and (max-width: 959px) {
+  @media only screen and (max-width: 959px) {  /* Shows the smaller version of the footer at 959px and smaller */
     .footer-mobile {
       background-color: #6d6d6d;
       font-size: 13px;
-      padding-bottom: 3.0rem;
-      padding-top: 5.0rem;
+      padding-bottom: 2.75rem;
+      padding-top: 3.0rem;
+      text-align: center;
       width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 959px) { /* Not sure why this isn't overriding the initial a:hover for the page */
+    #footer-links a:hover {
+      color: #fff;
     }
   }
 
@@ -683,17 +711,13 @@ input[type="button"]:hover {
   list-style: none;
 }
 
-.footer ul li a {
-  color: #fff; 
-}
-
 .form-subscribe {
   width: 62%;
 }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 959px) {
     .form-subscribe {
       margin-bottom: 2.5%;
-      width: 100%;
+      width: 85%;
     }
   }
 
@@ -721,38 +745,82 @@ select:focus {
   text-align: center;
   width: 44px;
 }
-  @media only screen and (max-width: 400px) {
-    .social-circles {
+
+  @media only screen and (max-width: 959px) {
+    .social-circles-mobile {
+     background: #00dac6;
+     border: none;
+     border-radius: 50%;
+       -moz-border-radius: 50%;
+       -webkit-border-radius: 50%;
+     float: right;
      height: 50px;
      margin-left: 20px;
+     text-align: center;
      width: 50px;
     }
   }
 
-  @media only screen and (max-width: 400px) {
-    .social {
+  @media only screen and (max-width: 959px) {  
+    .social-mobile {
       float: left;
       margin-bottom: 6%;
       margin-left: 6%;
-      margin-top: -3%;
+      margin-top: 5%;
+    }
+  }
+  @media only screen and (max-width: 959px) { 
+    .social-mobile a:hover {
+      background: #00baa9;
+      border: none;
+      border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+      float: right;
+      height: 50px;
+      text-align: center;
+      width: 50px;
     }
   }
 
 .social-circles #twitter {
   margin-top: 33%;
 }
+  @media only screen and (max-width: 959px) {  
+    .social-circles-mobile #twitter {
+      margin-top: 33%;
+    }
+  }
 
 .social-circles #google {
   margin-left: 12%;
   margin-top: 28%;
 }
+  @media only screen and (max-width: 959px) {  
+    .social-circles-mobile #google {
+      margin-left: 10%;
+      margin-top: 30%;
+    }
+  }
 
 .social-circles #linkedin {
   margin-left: 4%;
   margin-top: 29%;
 }
+  @media only screen and (max-width: 959px) {  
+    .social-circles-mobile #linkedin {
+      margin-left: 4%;
+      margin-top: 29%;
+    }
+  }
 
 .social-circles #facebook {
   margin-left: -1%;
   margin-top: 29%;
 }
+  @media only screen and (max-width: 959px) {  
+    .social-circles-mobile #facebook {
+      margin-left: -2%;
+      margin-top: 29%;
+    }
+  }
