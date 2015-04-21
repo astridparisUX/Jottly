@@ -677,12 +677,7 @@ input[type="button"]:hover {
     }
   }
 
-  @media only screen and (max-width: 959px) {
-    #footerlinks {
-      color: #ccc; 
-      white-space: nowrap;
-    }
-  }
+  
   
   @media only screen and (min-width: 960px) {  /* Hides the smaller version of the footer at 960px+ */
     .footer-mobile {
@@ -702,8 +697,17 @@ input[type="button"]:hover {
   }
 
   @media only screen and (max-width: 959px) { /* Not sure why this isn't overriding the initial a:hover for the page */
-    #footer-links a:hover {
+    .footer-mobile a {
+      color: #ccc; 
+      white-space: nowrap;
+    }
+  }
+
+  @media only screen and (max-width: 959px) { /* Not sure why this isn't overriding the initial a:hover for the page */
+    .footer-mobile a:hover {
       color: #fff;
+      padding: 0px;
+      background-color: transparent;
     }
   }
 
