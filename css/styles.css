@@ -561,6 +561,7 @@ input[type="button"]:hover {
       }
     }
 
+
 /*** HERO ***/
 #hero, #hero-overlay {
     background-color: rgba(0,0,0,.6);
@@ -581,7 +582,7 @@ input[type="button"]:hover {
   color: #fff;
   margin-top: 93px;
 }
-    @media only screen and (max-width: 959px) {
+     @media only screen and (max-width: 959px) {
       #hero {
         background-position: top 0px center;
       }
@@ -609,10 +610,16 @@ input[type="button"]:hover {
   position: relative;
   top:  0;
 }
-    @media only screen and (max-width: 959px) {
+    @media only screen and (max-width: 519px) {
       #hero-copy {
         top: -24%;
         transform: translateY(36%);
+      }
+    }
+     @media only screen and (min-width: 520px) {
+      #hero-copy {
+       top: -14%;
+       transform: translateY(36%);
       }
     }
     @media only screen and (max-width: 959px) {
