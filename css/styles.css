@@ -975,6 +975,7 @@ input[type="button"]:hover {
     padding: 0;
 }
 
+
 #quotes {
   background: url(../images/paper.png) no-repeat;
   background-size: cover;
@@ -1030,9 +1031,24 @@ input[type="button"]:hover {
   padding-bottom: 2.0rem;
   padding-top: 10.5rem;
 }
-   @media only screen and (max-width: 959px) {
+    @media only screen and (min-width: 640px) { 
+      #quotes-padding  {
+        margin-left: -2%;
+        padding-bottom: 1rem;
+        padding-top: 4rem;
+        width: 107%;
+      }
+    }
+   @media only screen and (max-width: 639px) {
     #quotes-padding {
       margin-left: 3%;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
+    }
+  }
+   @media only screen and (min-width: 1024px) {
+    #quotes-padding {
+      margin-left: 3rem;
       padding-bottom: 1rem;
       padding-top: 4rem;
     }
