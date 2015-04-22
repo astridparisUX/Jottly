@@ -899,6 +899,25 @@ input[type="button"]:hover {
   margin-bottom: -7px;
 }
 
+  @media only screen and (min-width: 640px) {
+    #screenshot img {
+      margin-left: 30%;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    #screenshot .button {
+      margin-left: 17%;
+      margin-top: -5%;
+      width: 66%;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+   #screenshot .screenshot-smaller-width {
+      width: 100%;
+    }
+  }
 
 /*** FEATURES ***/
 .circle {
