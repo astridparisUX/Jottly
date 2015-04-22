@@ -888,6 +888,16 @@ input[type="button"]:hover {
       padding-top: 2.5rem;
     }
   }
+  @media only screen and (min-width: 1024px) {
+    #screenshot {
+      padding-top: 7rem;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    #screenshot {
+      padding-top: 7rem;
+    }
+  }
 
   @media only screen and (max-width: 959px) {
     #screenshot h2 {
@@ -904,6 +914,16 @@ input[type="button"]:hover {
       margin-left: 30%;
     }
   }
+  @media only screen and (min-width: 1024px) {
+    #screenshot img {
+      margin-left: 10%;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    #screenshot img {
+      margin-left: 0;
+    }
+  }
 
   @media only screen and (min-width: 640px) {
     #screenshot .button {
@@ -912,10 +932,34 @@ input[type="button"]:hover {
       width: 66%;
     }
   }
+  @media only screen and (min-width: 1024px) {
+    #screenshot .button {
+       float: left;
+        margin-left: 0%;
+    }
+  }
+    @media only screen and (min-width: 1280px) {
+    #screenshot .button {
+      margin-left: 0;
+      width: 55%;
+    }
+  }
 
   @media only screen and (min-width: 640px) {
    #screenshot .screenshot-smaller-width {
       width: 100%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+   #screenshot .screenshot-smaller-width {
+      margin-top: -3%;
+      width: 39%;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+   #screenshot .screenshot-smaller-width {
+      margin-top: -3%;
+      width: 39%;
     }
   }
 
