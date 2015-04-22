@@ -1106,14 +1106,59 @@ input[type="button"]:hover {
 #final-cta a {
   font-size: 13px;
 }
+  @media only screen and (min-width: 640px) { 
+    #final-cta a {
+      margin-left: 33%;
+    }
+  }
+
 
   @media only screen and (max-width: 959px) {
     #final-cta p {
       text-align: center;
+    }
+  }
+  @media only screen and (min-width: 640px) { 
+      #final-cta p {
+        margin-left: 17%;
+        width: 100%;
+      }
+  }
+    @media only screen and (min-width: 1024px) { 
+      #final-cta p {
+        margin-left: 1%;
+        width: 78%;
+      }
+  }
 
+  @media only screen and (min-width: 640px) { 
+    .grouped  {
+      width: 295%;
+      margin-left: -37%;
+    }
+  }
+  @media only screen and (min-width: 1024px) { 
+    .grouped  {
+       margin-left: -121%;
     }
   }
 
+  @media only screen and (min-width: 640px) { 
+    .grouped-float  {
+      float:  none;
+    }
+  }
+  @media only screen and (min-width: 1024px) { 
+    .grouped-float {
+      float: right;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) { 
+    #final-cta .grouped-float .grouped p a {
+      margin-left: 25%;
+    }
+  }
 
 /*** FOOTER***/
 .button-subscribe {
