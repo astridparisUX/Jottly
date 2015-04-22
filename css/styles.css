@@ -269,14 +269,22 @@ input[type="button"].button-primary:focus {
 }
 
 #header-nav-menu-mobile li { 
-  border-top: 1px solid #ccc; /* Puts horizontal lines between nav menu items on smaller screens */
+  border-top: 1px solid #ccc; 
   border-width: 1px 0;
   padding-top: 4%;
 }
 
-#header-nav-menu-mobile li a { /* Is there a way to make the whole li the target (so I can give the whole "row" the hover state) with just CSS? */
+#header-nav-menu-mobile li:hover {
+  background: #ccc;
+  color:  #fff;
+  cursor: pointer;
+}
+
+#header-nav-menu-mobile li a { 
   margin-left: 32%
 }
+
+
 
 #header-nav a:hover {
   background: #ccc;
