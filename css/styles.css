@@ -340,34 +340,29 @@ input[type="button"]:hover {
       margin-top: -15.5%;
     }
   }
-  @media only screen and (min-width: 549px) and (max-width: 549px) {
+  @media only screen and (min-width: 549px) and (max-width: 594px) {
     #header-responsive {
       margin-top: -15%;
     }
   }
-    @media only screen and (min-width: 550px) and (max-width: 594px) {
-    #header-responsive {
-      margin-top: -12%;
-    }
-  }
   @media only screen and (min-width: 595px) and (max-width: 649px) {
     #header-responsive {
-      margin-top: -11%;
+      margin-top: -14%;
     }
   }
   @media only screen and (min-width: 650px) and (max-width: 719px) {
     #header-responsive {
-      margin-top: -10%;
+      margin-top: -13%;
     }
   }
   @media only screen and (min-width: 720px) and (max-width: 814px) {
     #header-responsive {
-      margin-top: -9%;
+      margin-top: -12%;
     }
   }
    @media only screen and (min-width: 815px) and (max-width: 960px) {
     #header-responsive {
-      margin-top: -8%;
+      margin-top: -11%;
     }
   }
 
@@ -446,9 +441,19 @@ input[type="button"]:hover {
       margin-bottom: -14.5%;
     }
   }
-  @media only screen and (min-width: 550px) and (max-width: 800px) {
+  @media only screen and (min-width: 550px) and (max-width: 559px) {
     #header-responsive {
-      margin-bottom: -13%;
+      margin-bottom: -14.5%;
+    }
+  }
+  @media only screen and (min-width: 560px) and (max-width: 583px) {
+    #header-responsive {
+      margin-bottom: -14%;
+    }
+  }
+   @media only screen and (min-width: 584px) and (max-width: 960px) {
+    #header-responsive {
+      margin-bottom: -13.5%;
     }
   }
 
