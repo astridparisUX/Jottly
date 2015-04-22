@@ -584,6 +584,12 @@ input[type="button"]:hover {
       }
     }
 
+    @media only screen and (max-width: 960px) {
+      #hide-button-mobile {
+        display: none;
+      }
+    }
+
 
 /*** HERO ***/
 #hero, #hero-overlay {
