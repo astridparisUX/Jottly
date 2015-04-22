@@ -585,9 +585,14 @@ input[type="button"]:hover {
         height: 285px;
       }
     }
-     @media only screen and (min-width: 550px) and (max-width: 960px) {
+    @media only screen and (min-width: 550px) and (max-width: 959px) {
       #hero, #hero-overlay {
         height: 205px;
+      }
+    }
+    @media only screen and (min-width: 960px) {
+      #hero, #hero-overlay {
+        height: 326px;
       }
     }
 
@@ -637,11 +642,12 @@ input[type="button"]:hover {
 }
     @media only screen and (max-width: 549px) {
       #hero-button {
+        float: left;
         text-align: center;
         transform: none;
       }
     } 
-    @media only screen and (min-width: 550px) and (max-width: 960px) {
+    @media only screen and (min-width: 550px) and (max-width: 719px) {
       #hero-button {  
         float: left;
         margin-left: -98%;
@@ -650,7 +656,24 @@ input[type="button"]:hover {
         transform: none;
       }
     } 
-    
+    @media only screen and (min-width: 720px) {
+      #hero-button {  
+        float: left;
+        margin-left: -100%;
+        margin-top: 4%;
+        text-align: center;
+        transform: none;
+      }
+    } 
+    @media only screen and (min-width: 768px) {
+      #hero-button {  
+        float: left;
+        margin-top: -10%;
+        text-align: center;
+        transform: none;
+      }
+    } 
+
 #hero-copy {
   position: relative;
   top:  0;
@@ -667,10 +690,32 @@ input[type="button"]:hover {
         transform: translateY(36%);
       }
     }
-    @media only screen and (min-width: 550px) and (max-width: 960px) {
+    @media only screen and (min-width: 550px) {
       #hero-copy {
         top: -16%;
         transform: translateY(36%);
+      }
+    }
+    @media only screen and (min-width: 640px) {
+      #hero-copy {
+        top: -16%;
+        transform: translateY(36%);
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      #hero-copy {
+        top: -2%;
+      }
+    }
+    @media only screen and (min-width: 960px) {
+      #hero-copy {
+        top: -51px;
+      }
+    }
+
+    @media only screen and (min-width: 1024px) {
+      #hero-copy {
+        top: -56%;
       }
     }
 
@@ -701,12 +746,18 @@ input[type="button"]:hover {
     }
     @media only screen and (min-width: 549px) and (max-width: 960px) {
       #hero-copy-tagline {
-        width: 72%;
+        width: 57%;
       }
     }
-     @media only screen and (min-width: 550px) and (max-width: 960px) {
+     @media only screen and (min-width: 550px) and (max-width: 959px) {
       #hero-copy-tagline {
         margin-left: -6%;
+      }
+    }
+     @media only screen and (min-width: 960px) {
+      #hero-copy-tagline {
+        margin-left: -6%;
+        width: 67%;
       }
     }
 
