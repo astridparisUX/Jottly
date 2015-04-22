@@ -486,6 +486,12 @@ input[type="button"]:hover {
   margin-left: -9%; /* Doing this makes the lines extend the viewing area width */
   margin-right: -9%;
 }
+  @media only screen and (min-width: 640px) {
+    #header-responsive #header-nav {
+      margin-left: -13%;
+      margin-right: -13%;
+    }
+  }
 
 #header-responsive #header-nav .button { /* Removes the sign up button from header when viewing on smaller screens*/
   display: none;
@@ -626,9 +632,14 @@ input[type="button"]:hover {
         background-position: top 0px center;
       }
     }
+    @media only screen and (max-width: 480px) {
+      #hero {
+        margin-top: 111px;
+      }
+    }
      @media only screen and (min-width: 640px) and (max-width: 643px) {
       #hero {
-        margin-top: 98px;
+        margin-top: 126px;
       }
     }
      @media only screen and (min-width: 644px) and (max-width: 660px) {
@@ -644,6 +655,11 @@ input[type="button"]:hover {
     @media only screen and (min-width: 720px) and (max-width: 768px) {
       #hero {
         margin-top: 115px;
+      }
+    }
+    @media only screen and (min-width: 768px)  {
+      #hero {
+        margin-top: 150px;
       }
     }
 
