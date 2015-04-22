@@ -502,9 +502,15 @@ input[type="button"]:hover {
     padding-bottom: 25px;
 }
    @media only screen and (max-width: 959px) {
-      #header-responsive #header-nav #logo { /* Makes nav area shorter vertically (decreases white space) */
-        margin-bottom: 1%;
+      #header-responsive #header-nav #logo { 
         margin-left: 7%;
+        padding-bottom: 0;
+        width: 100px;
+      }
+    }
+    @media only screen and (min-width: 640px) {
+      #header-responsive #header-nav #logo { 
+        margin-left: 30%;
         padding-bottom: 0;
         width: 100px;
       }
@@ -568,7 +574,7 @@ input[type="button"]:hover {
      @media only screen and (min-width: 550px) and (max-width: 719px) {
       #header-responsive #header-nav #menu { 
         float: right;
-        margin-right: 6%;
+        margin-right: 9%;
         margin-top: 1.5%;
         padding-top: 0;
       }
