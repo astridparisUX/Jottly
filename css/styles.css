@@ -283,6 +283,13 @@ input[type="button"].button-primary:focus {
   cursor: pointer;
 }
 
+#header-nav-menu-mobile li:hover a {
+  background: #ccc;
+  color:  #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
 #header-nav-menu-mobile li a { 
   margin-left: 32%
 }
