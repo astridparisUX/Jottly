@@ -9,6 +9,9 @@ ASTRID TO-DOs___________________________________________________
 -Hover state for logo
 -Check my work against PS-to-CSS output
 
+
+/* Standard screen sizes used for base styles: 1440px */
+
 /*** GENERAL STYLES ***/
 h1, h2, h3 {
   font-weight: 600;
@@ -642,16 +645,24 @@ input[type="button"]:hover {
 }
     @media only screen and (max-width: 549px) {
       #hero-button {
-        float: left;
         text-align: center;
         transform: none;
       }
     } 
-    @media only screen and (min-width: 550px) and (max-width: 719px) {
+    @media only screen and (min-width: 550px) and (max-width: 639px) {
       #hero-button {  
         float: left;
         margin-left: -98%;
         margin-top: 56%;
+        text-align: center;
+        transform: none;
+      }
+    } 
+    @media only screen and (min-width: 640px) and (max-width: 719px) {
+      #hero-button {  
+        float: left;
+        margin-left: -98%;
+        margin-top: 47%;
         text-align: center;
         transform: none;
       }
@@ -668,11 +679,24 @@ input[type="button"]:hover {
     @media only screen and (min-width: 768px) {
       #hero-button {  
         float: left;
-        margin-top: -10%;
+        margin-top: 33%;
         text-align: center;
         transform: none;
       }
     } 
+    @media only screen and (min-width: 1024px) {
+      #hero-button {  
+        float: right;
+        margin-top: 33%;
+        text-align: center;
+        transform: none;
+      }
+    }
+    @media only screen and (min-width: 1280px) {
+      #hero-button {  
+         margin-top: 24%;
+      }
+    }
 
 #hero-copy {
   position: relative;
@@ -698,13 +722,13 @@ input[type="button"]:hover {
     }
     @media only screen and (min-width: 640px) {
       #hero-copy {
-        top: -16%;
+        top: -15%;
         transform: translateY(36%);
       }
     }
     @media only screen and (min-width: 768px) {
       #hero-copy {
-        top: -2%;
+        top: -14%;
       }
     }
     @media only screen and (min-width: 960px) {
@@ -715,7 +739,12 @@ input[type="button"]:hover {
 
     @media only screen and (min-width: 1024px) {
       #hero-copy {
-        top: -56%;
+        top: 4%;
+      }
+    }
+    @media only screen and (min-width: 1280px) {
+      #hero-copy {
+        top: 14%;
       }
     }
 
@@ -744,20 +773,36 @@ input[type="button"]:hover {
         width: 63%;
       }
     }
-    @media only screen and (min-width: 549px) and (max-width: 960px) {
+    @media only screen and (min-width: 549px) and (max-width: 639px) {
       #hero-copy-tagline {
         width: 57%;
       }
     }
-     @media only screen and (min-width: 550px) and (max-width: 959px) {
+    @media only screen and (min-width: 640px) {
+      #hero-copy-tagline {
+        width: 62%;
+      }
+    }
+    @media only screen and (min-width: 550px) and (max-width: 959px) {
       #hero-copy-tagline {
         margin-left: -6%;
       }
     }
-     @media only screen and (min-width: 960px) {
+    @media only screen and (min-width: 960px) {
       #hero-copy-tagline {
         margin-left: -6%;
         width: 67%;
+      }
+    }
+    @media only screen and (min-width: 1024px) {
+      #hero-copy-tagline {
+        margin-left: -6%;
+        width: 98%;
+      }
+    }
+    @media only screen and (min-width: 1024px) {
+      #hero-copy-tagline {
+        margin-left: 0;
       }
     }
 
@@ -772,6 +817,36 @@ input[type="button"]:hover {
       #steps  {
         padding-bottom: 0;
         padding-top: 2.2rem;
+      }
+    }
+    @media only screen and (max-width: 400px) { 
+      #steps  {
+        margin-left: 7%;
+        width: 82%;
+      }
+    }
+    @media only screen and (max-width: 480px) { 
+      #steps  {
+        margin-left: 15%;
+        width: 68%;
+      }
+    }
+    @media only screen and (max-width: 640px) { 
+      #steps  {
+        margin-left: -7%;
+        width: 114%;
+      }
+    }
+     @media only screen and (max-width: 768px) { 
+      #steps  {
+        margin-left: -5%;
+        width: 108%;
+      }
+    }
+    @media only screen and (max-width: 1024px) { 
+      #steps  {
+        margin-left: -6%;
+        width: 110%;
       }
     }
 
