@@ -1160,6 +1160,7 @@ input[type="button"]:hover {
     }
   }
 
+
 /*** FOOTER***/
 .button-subscribe {
   float: right;
@@ -1168,6 +1169,11 @@ input[type="button"]:hover {
     .button-subscribe {
       float:  none;
       width: 85%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .button-subscribe {
+       margin-right: 3%;
     }
   }
 
@@ -1181,6 +1187,16 @@ input[type="button"]:hover {
   @media only screen and (max-width: 959px) {
     .copyright {
       text-align: center;
+    }
+  }
+  @media only screen and (min-width: 640px) {
+    .copyright {
+      margin-left: 34%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .copyright {
+      margin-left: 0;
     }
   }
 
@@ -1200,6 +1216,20 @@ input[type="button"]:hover {
   @media only screen and (max-width: 959px) {
     .footer {
       display: none; 
+    }
+  }
+
+  @media only screen and (min-width: 1024px) { 
+    .footer a {
+      color: #ccc; 
+      text-decoration: none; 
+    }
+  }
+   @media only screen and (max-width: 1024px) { 
+      .footer a:hover {
+        color: #fff;
+        padding: 0px;
+        background-color: transparent;
     }
   }
 
@@ -1230,7 +1260,7 @@ input[type="button"]:hover {
     }
   }
 
-  @media only screen and (max-width: 959px) { /* Not sure why this isn't overriding the initial a:hover for the page */
+  @media only screen and (max-width: 959px) { 
     .footer-mobile a {
       color: #ccc; 
       white-space: nowrap;
@@ -1258,6 +1288,12 @@ input[type="button"]:hover {
       width: 85%;
     }
   }
+  @media only screen and (min-width: 1024px) {
+    .form-subscribe {
+      margin-left: -47%;
+      width: 100%;
+    }
+  }
 
 input[type="email"]:focus,
 input[type="number"]:focus,
@@ -1271,6 +1307,28 @@ select:focus {
   border: 1px solid #005CDA;
   outline: 0; }
 
+
+  @media only screen and (min-width: 1024px) {
+    .social {
+      margin-left: -40%;
+      float: right;
+      margin-right: 5%;
+    }
+  }
+  @media only screen and (min-width: 1024px) { 
+    .social a:hover {
+      background: #00baa9;
+      border: none;
+      border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+      float: right;
+      height: 44px;
+      text-align: center;
+      width: 44px;
+    }
+  }
+
 .social-circles {
   background: #00dac6;
   border: none;
@@ -1283,6 +1341,12 @@ select:focus {
   text-align: center;
   width: 44px;
 }
+  @media only screen and (min-width: 1024px) {
+    .social-circles {
+      /* float: right; */
+      margin-left: 13px;
+    }
+  }
 
   @media only screen and (max-width: 959px) {
     .social-circles-mobile {
@@ -1305,6 +1369,11 @@ select:focus {
       margin-bottom: 6%;
       margin-left: 6%;
       margin-top: 5%;
+    }
+  }
+  @media only screen and (min-width: 480px) {  
+    .social-mobile {
+      margin-left: 13%;
     }
   }
   @media only screen and (max-width: 959px) { 
@@ -1360,5 +1429,28 @@ select:focus {
     .social-circles-mobile #facebook {
       margin-left: -2%;
       margin-top: 29%;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    .footer-mobile .social-medium-screens {
+      margin-left: 7%;
+      margin-top: -1%;
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .footer-mobile .social-medium-screens {
+      margin-left: 12%;
+      margin-top: -2%;
+      width: 100%;
+      margin-bottom: -3%;
+    }
+  }
+  @media only screen and (min-width: 640px) {
+    .footer-mobile .form-subscribe-640 {
+      float: none;
+      margin-left: 19%;
+      width: 61%;
     }
   }
