@@ -1031,7 +1031,7 @@ input[type="button"]:hover {
   padding-bottom: 2.0rem;
   padding-top: 10.5rem;
 }
-    @media only screen and (min-width: 640px) { 
+  @media only screen and (min-width: 640px) { 
       #quotes-padding  {
         margin-left: -2%;
         padding-bottom: 1rem;
@@ -1039,16 +1039,51 @@ input[type="button"]:hover {
         width: 107%;
       }
     }
-   @media only screen and (max-width: 639px) {
+  @media only screen and (max-width: 639px) {
     #quotes-padding {
       margin-left: 3%;
       padding-bottom: 1rem;
       padding-top: 4rem;
     }
   }
-   @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     #quotes-padding {
       margin-left: 3rem;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
+    }
+  }
+  @media only screen and (min-width: 1280px) {
+    #quotes-padding {
+      margin-left: 16rem;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
+    }
+  }
+  @media only screen and (min-width: 1366px) {
+    #quotes-padding {
+      margin-left: 20rem;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    #quotes-padding {
+      margin-left: 24rem;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
+    }
+  }
+  @media only screen and (min-width: 1680px) {
+    #quotes-padding {
+      margin-left: 35rem;
+      padding-bottom: 1rem;
+      padding-top: 4rem;
+    }
+  }
+  @media only screen and (min-width: 1681px){
+    #quotes-padding {
+      margin-left: 47rem;
       padding-bottom: 1rem;
       padding-top: 4rem;
     }
