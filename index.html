@@ -40,18 +40,18 @@
 
   <!-- HEADER -->
   <!-- For the responsive menu when screen gets smaller (START)-->
-  <div id="header-responsive"> 
-    <div id="header-nav">
+<!--   <div id="header-responsive"> 
+    <div id="header-nav"> -->
+    <div class="simpletop">
       <div class="container">
         <div class="row">
-          <div class="three columns">
+          <div class="half">
             <img src="images/logo.png" alt="Jottly logo" title="Jottly logo" id="logo">
           </div>
-          <div class="nine columns u-pull-right">
+          <div class="halfright">
             <img src="images/menu.png" alt="menu icon" title="menu icon" id="menu"> 
           </div>
         </div>
-        <div class="row">
            <ul id="header-nav-menu-mobile">
             <li><a href="#">How it Works</a></li>
             <li><a href="#">Browse Editors</a></li> 
@@ -59,10 +59,10 @@
             <li><a href="#">Sign In</a></li>
             <li id="hide-button-mobile"><a class="button" href="#">Sign up</a></li>
           </ul> 
-        </div>
       </div>
     </div>
-  </div>
+<!--     </div>
+  </div> -->
     <!-- For the responsive menu when screen gets smaller (END)-->
 
   <div id="header">
@@ -396,22 +396,9 @@
   </div>
 
   <script>
-    function thankUser(){
-        alert("Thank you!");
-    }
-  </script>
-
-  <script>
-    // function openMenu(){
-    //   console.log("working");
-    //   var menu = document.getElementById("header-nav-menu-mobile");      
-    //   menu.style.display = "block";
-    // }
-
     $( "#menu" ).click(function() {
       $( "#header-nav-menu-mobile" ).slideToggle( "slow" );
     });
-    // I think maybe I need to write a conditional for if the menu's open, use X style and if the menu's closed, use Y style???
   </script> 
 
 
