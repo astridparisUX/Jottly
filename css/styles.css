@@ -335,6 +335,8 @@ input[type="button"]:hover {
   margin-bottom: 0;
   padding-bottom: 4%;
   padding-top: 4%;
+  width: 119%;
+  margin-left: -9%;
 }
   @media only screen and (min-width: 640px) {
     #header-nav-menu-mobile li {
