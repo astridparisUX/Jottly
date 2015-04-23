@@ -333,15 +333,17 @@ input[type="button"]:hover {
   border-width: 1px 0;
   list-style: none;
   margin-bottom: 0;
+  margin-left: -9%;
   padding-bottom: 4%;
   padding-top: 4%;
   width: 119%;
-  margin-left: -9%;
 }
   @media only screen and (min-width: 640px) {
     #header-nav-menu-mobile li {
+      margin-left: -13%;
       padding-bottom: 3%;
       padding-top: 3%;
+      width: 126%;
     }
   }
   @media only screen and (min-width: 768px) {
