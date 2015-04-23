@@ -295,8 +295,8 @@ input[type="button"]:hover {
 
   @media only screen and (max-width: 404px) {
     #header-responsive {
-      margin-bottom: -20%;
-      margin-top: -19%;
+      margin-bottom: -25%; /* Should be -20% if nav's closed */
+      margin-top: -5%; /* Should be -19% if nav's closed */
     }
   }
   @media only screen and (min-width: 405px) and (max-width: 411px) {
