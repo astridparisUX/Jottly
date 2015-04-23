@@ -370,21 +370,6 @@ input[type="button"]:hover {
   margin-left: 32%
 }
 
-#header-responsive ul { 
-  list-style: none;
-}
-
-#header-responsive #header-nav {
-  margin-left: -9%; /* Doing this makes the lines extend the viewing area width */
-  margin-right: -9%;
-}
-  @media only screen and (min-width: 640px) {
-    #header-responsive #header-nav {
-      margin-left: -13%;
-      margin-right: -13%;
-    }
-  }
-
 #logo {
     padding-bottom: 0;
 }
@@ -392,13 +377,12 @@ input[type="button"]:hover {
 #menu {
   cursor: pointer;
 }
-   
 
-    @media only screen and (max-width: 960px) {
-      #hide-button-mobile {
-        display: none;
-      }
-    }
+@media only screen and (max-width: 960px) {
+  #hide-button-mobile {
+    display: none;
+  }
+}
 
 
 /*** HERO ***/
