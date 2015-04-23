@@ -690,6 +690,11 @@ input[type="button"]:hover {
         margin-top: 143px;
       }
     }
+    @media only screen and (min-width: 1024px)  {
+      #hero {
+        margin-top: 96px;
+      }
+    }
 
 #hero a {
   color: #fff; 
@@ -1341,15 +1346,16 @@ input[type="button"]:hover {
     }
   }
 
-  @media only screen and (min-width: 1024px) { 
+  @media only screen and (min-width: 960px) { 
     .footer a {
       color: #ccc; 
       text-decoration: none; 
     }
   }
-   @media only screen and (max-width: 1024px) { 
+   @media only screen and (min-width: 960px) { 
       .footer a:hover {
         color: #fff;
+        font-weight: 600;
         padding: 0px;
         background-color: transparent;
     }
@@ -1363,8 +1369,6 @@ input[type="button"]:hover {
     }
   }
 
-  
-  
   @media only screen and (min-width: 960px) {  /* Hides the smaller version of the footer at 960px+ */
     .footer-mobile {
       display: none; 
@@ -1392,6 +1396,7 @@ input[type="button"]:hover {
   @media only screen and (max-width: 959px) { /* Not sure why this isn't overriding the initial a:hover for the page */
     .footer-mobile a:hover {
       color: #fff;
+      font-weight: 600;
       padding: 0px;
       background-color: transparent;
     }
