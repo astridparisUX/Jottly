@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/skeleton.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <!-- FAVICON -->
       <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
@@ -394,14 +395,18 @@
     </div>
   </div>
 
-  <script>
+ // <script>
     // function openMenu(){
     //   console.log("working");
     //   var menu = document.getElementById("header-nav-menu-mobile");      
     //   menu.style.display = "block";
     // }
 
-  </script>
+    $( "#menu" ).click(function() {
+      $( "#header-nav-menu-mobile" ).slideToggle( "slow" );
+    });
+  </script> 
+
 
   </body>
 </html>
