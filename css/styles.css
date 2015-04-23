@@ -278,6 +278,18 @@ input[type="button"].button-primary:focus {
   padding-bottom: 4%;
   padding-top: 4%;
 }
+  @media only screen and (min-width: 640px) {
+    #header-nav-menu-mobile li {
+      padding-bottom: 3%;
+      padding-top: 3%;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    #header-nav-menu-mobile li {
+      padding-bottom: 2.75%;
+      padding-top: 2.75%;
+    }
+  }
 
 #header-nav-menu-mobile li:hover {
   background: #ccc;
@@ -512,7 +524,7 @@ input[type="button"]:hover {
     @media only screen and (min-width: 640px) {
       #header-responsive #header-nav #logo { 
         margin-left: 30%;
-        margin-top: -5%;
+        margin-top: 2%;
         padding-bottom: 0;
         width: 100px;
       }
@@ -520,7 +532,7 @@ input[type="button"]:hover {
     @media only screen and (min-width: 768px) {
       #header-responsive #header-nav #logo { 
         margin-left: 30%;
-        margin-top: -6.5%;
+        margin-top: 0.5%;
         padding-bottom: 0;
         width: 100px;
       }
@@ -585,7 +597,7 @@ input[type="button"]:hover {
       #header-responsive #header-nav #menu { 
         float: right;
         margin-right: 9%;
-        margin-top: 0.5%;
+        margin-top: 2%;
         padding-top: 0;
       }
     }
@@ -593,7 +605,7 @@ input[type="button"]:hover {
       #header-responsive #header-nav #menu { 
         float: right;
         margin-right: 6%;
-        margin-top: -0.5%;
+        margin-top: 1.5%;
         padding-top: 0;
       }
     }
@@ -675,7 +687,7 @@ input[type="button"]:hover {
     }
     @media only screen and (min-width: 768px)  {
       #hero {
-        margin-top: 150px;
+        margin-top: 143px;
       }
     }
 
