@@ -391,38 +391,8 @@ input[type="button"]:hover {
 }
 
 #logo {
-    padding-bottom: 25px;
+    padding-bottom: 0;
 }
-
-@media only screen and (max-width: 480px) {
-  #logo {
-    padding-bottom: 0px;
-  }
-}
-   @media only screen and (max-width: 959px) {
-      #header-responsive #header-nav #logo { 
-        margin-left: 7%;
-        margin-top: -1%;
-        padding-bottom: 0;
-        width: 100px;
-      }
-    }
-    @media only screen and (min-width: 640px) {
-      #header-responsive #header-nav #logo { 
-        margin-left: 30%;
-        margin-top: 2%;
-        padding-bottom: 0;
-        width: 100px;
-      }
-    }
-    @media only screen and (min-width: 768px) {
-      #header-responsive #header-nav #logo { 
-        margin-left: 30%;
-        margin-top: 0.5%;
-        padding-bottom: 0;
-        width: 100px;
-      }
-    }
 
 #menu {
   cursor: pointer;
