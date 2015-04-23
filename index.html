@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Jott.ly | A collaborative marketplace for writers &amp; editors
+    </title>
+    <meta name="description" content="Astrid's first project in Bloc.io's UX Design program: a landing page for a fictitious SaaS product">
+    <meta name="author" content="Astrid Paris, @astridparisUX">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//use.typekit.net/fix1wec.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}
+    </script>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- FAVICON -->
+      <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+      <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="images/favicons/favicon-194x194.png" sizes="194x194">
+      <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+      <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+      <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="images/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#2d89ef">
+      <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+
+  <!-- HEADER -->
+  <!-- For the responsive menu when screen gets smaller (START)-->
+<!--   <div id="header-responsive"> 
+    <div id="header-nav"> -->
+    <div class="simpletop">
+      <div class="container">
+        <div class="row">
+          <div class="half">
+            <img src="images/logo.png" alt="Jottly logo" title="Jottly logo" id="logo">
+          </div>
+          <div class="halfright">
+            <img src="images/menu.png" alt="menu icon" title="menu icon" id="menu"> 
+          </div>
+        </div>
+           <ul id="header-nav-menu-mobile">
+            <li><a href="#">How it Works</a></li>
+            <li><a href="#">Browse Editors</a></li> 
+            <li><a href="#">Browse Editing Jobs</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li id="hide-button-mobile"><a class="button" href="#">Sign up</a></li>
+          </ul> 
+      </div>
+    </div>
+<!--     </div>
+  </div> -->
+    <!-- For the responsive menu when screen gets smaller (END)-->
+
+  <div id="header">
+    <div id="header-nav">
+      <div class="container">
+        <div class="row">
+          <div class="two columns">
+            <img src="images/logo.png" alt="Jottly logo" title="Jottly logo" id="logo">
+          </div>
+          <div class="ten columns u-pull-right">
+            <ul>
+              <li><a href="#" id="nav-links">How it Works</a></li>
+              <li><a href="#" id="nav-links">Browse Editors</a></li> 
+              <li><a href="#" id="nav-links">Browse Editing Jobs</a></li>
+              <li><a href="#" id="nav-links">Sign In</a></li>
+              <li><a class="button" href="#">Sign up</a></li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    
+
+  <!-- HERO -->
+  <div id="hero">
+    <div id="hero-overlay">
+      <div id="hero-copy">
+        <div class="container">
+          <div class="row">
+            <div class="nine columns">
+              <div id="hero-copy-tagline">
+                <h1>
+                  A collaborative marketplace<br>
+                  for writers &amp; editors
+                </h1>
+                <p>
+                  Connect with editors on Jottly's custom writing and editing platform
+                </p>
+              </div>
+          </div>
+            <div class="three columns">
+              <div id="hero-button">
+              <a class="button button-primary" href="#" onclick="thankUser()">Post a job for free</a>
+              <br>
+              <p align="center">
+              <a href="#">or learn how to become an editor</a>
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEPS -->
+  <div id="steps">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+            <img src="images/post.png" alt="post icon" title="post icon">
+          <h3>
+            Post
+          </h3>
+          <p>
+            Post your project brief and we'll let you know when editors bid on it
+          </p>
+        </div>
+        <div class="one-third column">
+          <img src="images/choose.png" alt="choose icon" title="choose icon">
+          <h3>
+            Choose
+          </h3>
+          <p>
+            Choose an editor from those who bid or proactively recruit an editor who didn't bid
+          </p>
+        </div>
+        <div class="one-third column">
+          <img src="images/collaborate1.png" alt="collaborate icon" title="collaborate icon">
+          <h3>
+            Collaborate
+          </h3>
+          <p>
+            Let the creativity begin by collaborating online with your new editor
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREENSHOT -->
+  <div id="screenshot">
+    <div class="container">
+      <div class="row">
+        <div class="five columns screenshot-smaller-width">
+          <h2>
+            Just editing. Period.
+          </h2>
+          <p>
+            Unlike other job marketplace sites, Jott.ly focuses on editing projects. With 30,000+ editors across the globe and integrated collaboration and project management tools, Jott.ly's a one-stop-shop for your editing needs.
+            <br><br>
+            <a class="button" href="#">See how it works</a>
+          </p>
+        </div>
+        <div class="seven columns">
+          <img src="images/screenshot.png" class="scale-with-grid" alt="Screenshot of Jottly's app" title="Screenshot of Jottly's app">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <div id="features">
+    <div class="container">
+      <div class="row">
+        <div class="two columns">
+            <div class="circle">
+              <img src="images/collaborate.png" alt="collaborate icon" title="collaborate icon" id="collaborate">
+            </div>
+        </div>
+        <div class="ten columns">
+          <h2>
+            Built-in collaboration space
+          </h2>
+          <p>
+            Creativity and good work doesn't happen in a vacuum. Writers and editors can collaborate in a dedicated project space. With document version history, commenting, and multi-user editing, writers can actively participate in the editing process.
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="two columns">
+          <div class="circle">
+            <img src="images/profile.png" alt="profile icon" title="profile icon" id="profile">
+          </div>
+        </div>
+        <div class="ten columns">
+          <h2>
+            Editor profiles
+          </h2>
+          <p>
+            Pick the perfect editor for your writing project. Profiles let you see each each freelance editor's experience with different style guides, industries, and types of content. You can even see how editors have been rated for past Jott.ly jobs.
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="two columns">
+          <div class="circle">
+            <img src="images/milestone.png" alt="milestone icon" title="milestone icon" id="milestone">
+          </div>
+        </div>
+        <div class="ten columns">
+            <h2>
+              Project milestones
+            </h2>
+            <p>
+              Keep your editing project on track by setting milestones. You can even opt to make payments for work based on the meeting of milestones. Writers pay only for the work that's been done and freelancers reduce their risk of working for free.
+            </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="two columns">
+          <div class="circle">
+            <img src="images/calendar.png" alt="calendar icon" title="calendar icon" id="calendar">
+          </div>
+        </div>
+        <div class="ten columns">
+          <h2>
+            Integrated calendar
+          </h2>
+          <p>
+            Make sure everyone's on the same page with project calendars. Calendars automatically display project milestones, and you mark additional events like task due dates or meetings.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row" align="center">
+        <div class="eight columns offset-by-two columns">
+          <p>
+            Other job marketplace sites and collaboration tools are generic, so finding and collaborating with editors is a pain in the butt.
+            <br><br>
+            <a class="button" href="#">Compare Jottly</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QUOTES -->
+  <div id="quotes">
+    <div id="quotes-overlay">
+      <div class="container" id="quotes-padding">
+        <div class="row">
+          <div class="one column">
+            <img src="images/monica.jpg" alt="Photo of Monica B. from Urban Gardens 'R Us" title="Photo of Monica B. from Urban Gardens 'R Us" class="quotes-avatar">
+          </div>
+          <div class="five columns">
+            <img src="images/quote.png" alt="" title="" id="quotes-mark">
+            <p>
+              My copyeditor went on maternity leave a little earlier than expected, so my project started getting behind. I was able to quickly find a temporary editor through Jott.ly for a reasonable rate, and she's proven to be excellent!
+            </p>
+            <p class="quotes-author">
+              Monica B., Urban Gardens 'R Us
+            </p>
+          </div>
+          <div class="one column">
+            <img src="images/john.jpg" alt="Photo of John D. from Fancy Pants Media" title="Photo of John D. from Fancy Pants Media" class="quotes-avatar">
+          </div>
+          <div class="five columns">
+            <img src="images/quote.png" alt="" title="" id="quotes-mark">
+            <p>
+              As a small startup, we don't have a need for a full-time editor. Jott.ly has allowed us to connect with a freelance editor who we can use when we're in a pinch. We collaborate through Jott.ly on our projects which has been a really awesome experience.
+            </p>
+            <p class="quotes-author">
+              John D., Fancy Pants Media
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL CTA -->
+  <div id="final-cta">
+    <div class="container">
+      <div class="row">
+        <div class="nine columns">
+          <p>
+            Behind all good writing is a good editor. Jott.ly is the one and only editing-focused freelance online marketplace. Browse editor profiles now to find your perfect match.
+          </p>
+        </div>
+        <div class="three columns grouped-float">
+          <div class="grouped">
+          <a class="button button-primary" href="#">Post a job for free</a>
+          <br>
+          <p align="center">
+            <a href="#">or learn how to become an editor</a>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER-->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="three columns">
+          <ul>
+            <li><h4>Product</h4></li>
+            <li><a href="#">Browse Editors</a></li> 
+            <li><a href="#">Browse Editing Jobs</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+        <div class="three columns">
+          <ul>
+            <li><h4>Community</h4></li>
+            <li><a href="#">Testimonials</a></li> 
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="three columns">
+          <ul>
+            <li><h4>Company</h4></li>
+            <li><a href="#">About Us</a></li> 
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="three columns">
+          <div class="social">
+            <div class="social-circles"><a href-"#"><img src="images/facebook.png" alt="Facebook icon" title="Facebook icon" id="facebook"></a></div>
+            <div class="social-circles"><a href-"#"><img src="images/linkedin.png" alt="LinkedIn icon" title="LinkedIn icon" id="linkedin"></a></div>
+            <div class="social-circles"><a href-"#"><img src="images/google.png" alt="Google icon" title="Google icon" id="google"></a></div>
+            <div class="social-circles"><a href-"#"><img src="images/twitter.png" alt="Twitter icon" title="Twitter icon" id="twitter"></a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="five columns u-pull-right">
+          <input type="email" class="form-subscribe" placeholder="Enter your email to get Jott.ly news">
+          <a class="button button-subscribe" href="#">Subscribe</a>  
+        </div>
+        <div class="four columns copyright">
+          &copy; 2015 Jott.ly, Inc. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="footer-mobile">
+    <div class="container">
+      <div class="row">
+        <a href="#">Browse Editors</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Browse Editing Jobs</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Sign Up</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Sign In</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Testimonials</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Help</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Blog</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">About Us</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Press</a>&nbsp;&nbsp;<span id="footerbullets">&#149;</span>&nbsp;&nbsp;
+        <a href="#">Contact</a>
+      </div>
+
+        <div class="three columns social-medium-screens">
+          <div class="social-mobile">
+            <div class="social-circles-mobile"><a href-"#"><img src="images/facebook.png" alt="Facebook icon" title="Facebook icon" id="facebook"></a></div>
+            <div class="social-circles-mobile"><a href-"#"><img src="images/linkedin.png" alt="LinkedIn icon" title="LinkedIn icon" id="linkedin"></a></div>
+            <div class="social-circles-mobile"><a href-"#"><img src="images/google.png" alt="Google icon" title="Google icon" id="google"></a></div>
+            <div class="social-circles-mobile"><a href-"#"><img src="images/twitter.png" alt="Twitter icon" title="Twitter icon" id="twitter"></a></div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="five columns u-pull-right form-subscribe-640">
+          <input type="email" class="form-subscribe" placeholder="Enter your email to get Jott.ly news">
+          <a class="button button-subscribe" href="#">Subscribe</a>  
+        </div>
+        <div class="four columns copyright">
+          &copy; 2015 Jott.ly, Inc. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $( "#menu" ).click(function() {
+      $( "#header-nav-menu-mobile" ).slideToggle( "slow" );
+    });
+  </script> 
+
+
+  </body>
+</html>
