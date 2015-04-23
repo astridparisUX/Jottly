@@ -385,11 +385,6 @@ input[type="button"]:hover {
     }
   }
 
-#header-responsive #header-nav .button { /* Removes the sign up button from header when viewing on smaller screens*/
-  display: none;
-  border-top: none; /* Still showing the top border for this item even though I've hidden it. ?? */
-}
-
 #logo {
     padding-bottom: 0;
 }
